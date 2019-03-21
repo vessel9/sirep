@@ -92,21 +92,10 @@
 		<?php echo $form->textField($model, 'MZGTPUBLICACIONES_NUMEROREVISTA', array('maxlength' => 5, 'size' => 10)); ?>
 		<?php echo $form->error($model,'MZGTPUBLICACIONES_NUMEROREVISTA'); ?>
 		</div><!-- row -->
-                <div class="column" id="div_diapublicacion">
-		<?php echo $form->labelEx($model,'MZGTPUBLICACIONES_DIAPUBLICACION'); ?>
-		<?php echo $form->dropDownList($model, 'MZGTPUBLICACIONES_DIAPUBLICACION', array('' => '', '1' => '1', '2' => '2', '3' => '3', '4' => '4', '5' => '5', '6' => '6', '7' => '7', '8' => '8', '9' => '9', '10' => '10', '11' => '11', '12' => '12', '13' => '13', '14' => '14', '15' => '15', '16' => '16', '17' => '17', '18' => '18', '19' => '19', '20' => '20', '21' => '21', '22' => '22', '23' => '23', '24' => '24', '25' => '25', '26' => '26', '27' => '27', '28' => '28', '29' => '29', '30' => '30', '31' => '31')); ?>
-		<?php echo $form->error($model,'MZGTPUBLICACIONES_DIAPUBLICACION'); ?>
-		</div><!-- row -->
-                <div class="column" id="div_mespublicacion">
-		<?php //echo $form->labelEx($model,'MZGTPUBLICACIONES_MESPUBLICACION'); ?>
-                <?php echo '<label for="Mzgtpublicaciones_MZGTPUBLICACIONES_MESPUBLICACION">Mes <span id="req_mespublicacion" class="required">*</span></label>'; ?>
-		<?php echo $form->dropDownList($model, 'MZGTPUBLICACIONES_MESPUBLICACION', array('1' => 'Enero', '2' => 'Febrero', '3' => 'Marzo', '4' => 'Abril', '5' => 'Mayo', '6' => 'Junio', '7' => 'Julio', '8' => 'Agosto', '9' => 'Septiembre', '10' => 'Octubre', '11' => 'Noviembre', '12' => 'Diciembre')); ?>
-		<?php echo $form->error($model,'MZGTPUBLICACIONES_MESPUBLICACION'); ?>
-		</div><!-- row -->
-                <div class="row" id="div_aniopublicacion">
+		<div class="row" id="div_fechapublicacion">
 		<?php //echo $form->labelEx($model,'MZGTPUBLICACIONES_ANIOPUBLICACION'); ?>
                 <?php echo '<label for="Mzgtpublicaciones_MZGTPUBLICACIONES_ANIOPUBLICACION">Año <span id="req_aniopublicacion" class="required">*</span></label>'; ?>
-		<?php echo $form->dropDownList($model, 'MZGTPUBLICACIONES_ANIOPUBLICACION', array('2010' => '2010', '2011' => '2011', '2012' => '2012', '2013' => '2013', '2014' => '2014', '2015' => '2015', '2016' => '2016', '2017' => '2017', '2018' => '2018', '2019' => '2019', '2020' => '2020')); ?>
+		<?php echo $form->dropDownList($model, 'MZGTPUBLICACIONES_ANIOPUBLICACION', array('2010' => '2010', '2011' => '2011', '2012' => '2012', '2013' => '2013', '2014' => '2014', '2015' => '2015', '2016' => '2016', '2017' => '2017', '2018' => '2018', '2019' => '2019', '2020' => '2020', '2021' => '2021', '2022' => '2022', '2023' => '2023', '2024' => '2024', '2025' => '2025', '2026' => '2026', '2027' => '2027', '2028' => '2028', '2029' => '2029', '2030' => '2030', '2031' => '2031')); ?>
 		<?php echo $form->error($model,'MZGTPUBLICACIONES_ANIOPUBLICACION'); ?>
 		</div><!-- row -->
                 <div class="row" id="div_volumen">
@@ -156,17 +145,12 @@
 		<?php echo $form->textField($model, 'MZGTPUBLICACIONES_FACTORIMPACTO', array('maxlength' => 10)); ?>
 		<?php echo $form->error($model,'MZGTPUBLICACIONES_FACTORIMPACTO'); ?>
 		</div><!-- row -->
-                <div class="row" id="div_numeroissue">
-		<?php echo $form->labelEx($model,'MZGTPUBLICACIONES_NUMEROISSUE'); ?>
-                <?php //echo '<label for="Mzgtpublicaciones_MZGTPUBLICACIONES_NUMEROISSUE">Número/ISSUE <span id="req_numeroissue" class="required">*</span></label>'; ?>
-		<?php echo $form->textField($model, 'MZGTPUBLICACIONES_NUMEROISSUE', array('maxlength' => 50, 'size'=>30)); ?>
-		<?php echo $form->error($model,'MZGTPUBLICACIONES_NUMEROISSUE'); ?>
-		</div><!-- row -->
 		<div class="row" id="div_doi">
 		<?php //echo $form->labelEx($model,'MZGTPUBLICACIONES_DOI').'DOI<span id="req_doi" class="required">*</span>'; ?>
                 <?php echo '<label for="Mzgtpublicaciones_MZGTPUBLICACIONES_DOI">DOI <span id="req_doi" class="required">*</span></label>'; ?>
-		<?php echo $form->textField($model, 'MZGTPUBLICACIONES_DOI', array('maxlength' => 255)); ?>
+		<?php echo $form->textField($model, 'MZGTPUBLICACIONES_DOI', array('maxlength' => 100)); ?>
 		<?php echo $form->error($model,'MZGTPUBLICACIONES_DOI'); ?>
+		<label class="error">Ejemplo: https://doi.org/10.1016/j.ecoleng.2016.05.034</label>
 		</div><!-- row -->
                 
                 <div class="row" id="div_enlace">
