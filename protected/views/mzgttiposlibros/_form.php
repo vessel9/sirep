@@ -30,7 +30,7 @@
 		</div><!-- row -->
 
 		<label><?php echo GxHtml::encode($model->getRelationLabel('mzgtlibroses')); ?></label>
-		<?php echo $form->checkBoxList($model, 'mzgtlibroses', GxHtml::encodeEx(GxHtml::listDataEx(Mzgtlibros::model()->findAllAttributes(null, true)), false, true)); ?>
+		
 
 <?php
 echo GxHtml::submitButton(Yii::t('app', 'Guardar'));

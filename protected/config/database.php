@@ -6,7 +6,7 @@ return array(
 	// uncomment the following lines to use a MySQL database
 	'connectionString' => 'mysql:host=localhost;dbname=sirep_app',
 	'emulatePrepare' => true,
-	'username' => 'sirep_app',
-	'password' => 'yb67AHUrH2JtVmhD',
+	'username' => 'root',
+	'password' => '',
 	'charset' => 'utf8',
 );
