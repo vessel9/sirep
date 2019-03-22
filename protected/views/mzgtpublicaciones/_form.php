@@ -145,12 +145,6 @@
 		<?php echo $form->textField($model, 'MZGTPUBLICACIONES_FACTORIMPACTO', array('maxlength' => 10)); ?>
 		<?php echo $form->error($model,'MZGTPUBLICACIONES_FACTORIMPACTO'); ?>
 		</div><!-- row -->
-                <div class="row" id="div_numeroissue">
-		<?php echo $form->labelEx($model,'MZGTPUBLICACIONES_NUMEROISSUE'); ?>
-                <?php //echo '<label for="Mzgtpublicaciones_MZGTPUBLICACIONES_NUMEROISSUE">Número/ISSUE <span id="req_numeroissue" class="required">*</span></label>'; ?>
-		<?php echo $form->textField($model, 'MZGTPUBLICACIONES_NUMEROISSUE', array('maxlength' => 50, 'size'=>30)); ?>
-		<?php echo $form->error($model,'MZGTPUBLICACIONES_NUMEROISSUE'); ?>
-		</div><!-- row -->
 		<div class="row" id="div_doi">
 		<?php //echo $form->labelEx($model,'MZGTPUBLICACIONES_DOI').'DOI<span id="req_doi" class="required">*</span>'; ?>
                 <?php echo '<label for="Mzgtpublicaciones_MZGTPUBLICACIONES_DOI">DOI <span id="req_doi" class="required">*</span></label>'; ?>
