@@ -7058,3 +7058,169 @@ Stack trace:
 REQUEST_URI=/sirep/mzgtbancoautores/sirep/images/banner.png
 HTTP_REFERER=http://localhost/sirep/mzgtbancoautores/create.html
 ---
+2019/03/22 18:16:47 [error] [exception.CException] CException: Mzgtbancoautores y sus behaviors no tienen un método o closure llamado "getRelationLabel". in C:\xampp2\htdocs\sirep\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp2\htdocs\sirep\yii\framework\db\ar\CActiveRecord.php(229): CComponent->__call('getRelationLabe...', Array)
+#1 C:\xampp2\htdocs\sirep\protected\views\mzgtbancoautores\_form.php(129): CActiveRecord->__call('getRelationLabe...', Array)
+#2 C:\xampp2\htdocs\sirep\yii\framework\web\CBaseController.php(126): require('C:\\xampp2\\htdoc...')
+#3 C:\xampp2\htdocs\sirep\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp2\\htdoc...', Array, true)
+#4 C:\xampp2\htdocs\sirep\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp2\\htdoc...', Array, true)
+#5 C:\xampp2\htdocs\sirep\protected\views\mzgtbancoautores\create.php(20): CController->renderPartial('_form', Array)
+#6 C:\xampp2\htdocs\sirep\yii\framework\web\CBaseController.php(126): require('C:\\xampp2\\htdoc...')
+#7 C:\xampp2\htdocs\sirep\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp2\\htdoc...', Array, true)
+#8 C:\xampp2\htdocs\sirep\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp2\\htdoc...', Array, true)
+#9 C:\xampp2\htdocs\sirep\yii\framework\web\CController.php(785): CController->renderPartial('create', Array, true)
+#10 C:\xampp2\htdocs\sirep\protected\controllers\MzgtbancoautoresController.php(78): CController->render('create', Array)
+#11 C:\xampp2\htdocs\sirep\yii\framework\web\actions\CInlineAction.php(49): MzgtbancoautoresController->actionCreate()
+#12 C:\xampp2\htdocs\sirep\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\xampp2\htdocs\sirep\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\xampp2\htdocs\sirep\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp2\htdocs\sirep\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#16 C:\xampp2\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('mzgtbancoautore...')
+#17 C:\xampp2\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#18 C:\xampp2\htdocs\sirep\index.php(15): CApplication->run()
+#19 {main}
+REQUEST_URI=/sirep/mzgtbancoautores/create.html
+HTTP_REFERER=http://localhost/sirep/mzgtbancoautores/index.html
+---
+2019/03/22 18:16:47 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "sirep" solicitada. in C:\xampp2\htdocs\sirep\yii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp2\htdocs\sirep\yii\framework\web\CController.php(270): CController->missingAction('sirep')
+#1 C:\xampp2\htdocs\sirep\yii\framework\web\CWebApplication.php(282): CController->run('sirep')
+#2 C:\xampp2\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('mzgtbancoautore...')
+#3 C:\xampp2\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp2\htdocs\sirep\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/sirep/mzgtbancoautores/sirep/images/banner.png
+HTTP_REFERER=http://localhost/sirep/mzgtbancoautores/create.html
+---
+2019/03/22 18:16:51 [error] [exception.CException] CException: Mzgtbancoautores y sus behaviors no tienen un método o closure llamado "getRelationLabel". in C:\xampp2\htdocs\sirep\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp2\htdocs\sirep\yii\framework\db\ar\CActiveRecord.php(229): CComponent->__call('getRelationLabe...', Array)
+#1 C:\xampp2\htdocs\sirep\protected\views\mzgtbancoautores\_form.php(129): CActiveRecord->__call('getRelationLabe...', Array)
+#2 C:\xampp2\htdocs\sirep\yii\framework\web\CBaseController.php(126): require('C:\\xampp2\\htdoc...')
+#3 C:\xampp2\htdocs\sirep\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp2\\htdoc...', Array, true)
+#4 C:\xampp2\htdocs\sirep\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp2\\htdoc...', Array, true)
+#5 C:\xampp2\htdocs\sirep\protected\views\mzgtbancoautores\create.php(20): CController->renderPartial('_form', Array)
+#6 C:\xampp2\htdocs\sirep\yii\framework\web\CBaseController.php(126): require('C:\\xampp2\\htdoc...')
+#7 C:\xampp2\htdocs\sirep\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp2\\htdoc...', Array, true)
+#8 C:\xampp2\htdocs\sirep\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp2\\htdoc...', Array, true)
+#9 C:\xampp2\htdocs\sirep\yii\framework\web\CController.php(785): CController->renderPartial('create', Array, true)
+#10 C:\xampp2\htdocs\sirep\protected\controllers\MzgtbancoautoresController.php(78): CController->render('create', Array)
+#11 C:\xampp2\htdocs\sirep\yii\framework\web\actions\CInlineAction.php(49): MzgtbancoautoresController->actionCreate()
+#12 C:\xampp2\htdocs\sirep\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\xampp2\htdocs\sirep\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\xampp2\htdocs\sirep\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp2\htdocs\sirep\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#16 C:\xampp2\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('mzgtbancoautore...')
+#17 C:\xampp2\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#18 C:\xampp2\htdocs\sirep\index.php(15): CApplication->run()
+#19 {main}
+REQUEST_URI=/sirep/mzgtbancoautores/create.html
+HTTP_REFERER=http://localhost/sirep/mzgtbancoautores/create.html
+---
+2019/03/22 18:16:52 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "sirep" solicitada. in C:\xampp2\htdocs\sirep\yii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp2\htdocs\sirep\yii\framework\web\CController.php(270): CController->missingAction('sirep')
+#1 C:\xampp2\htdocs\sirep\yii\framework\web\CWebApplication.php(282): CController->run('sirep')
+#2 C:\xampp2\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('mzgtbancoautore...')
+#3 C:\xampp2\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp2\htdocs\sirep\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/sirep/mzgtbancoautores/sirep/images/banner.png
+HTTP_REFERER=http://localhost/sirep/mzgtbancoautores/create.html
+---
+2019/03/22 18:16:56 [error] [exception.CException] CException: Mzgtbancoautores y sus behaviors no tienen un método o closure llamado "getRelationLabel". in C:\xampp2\htdocs\sirep\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp2\htdocs\sirep\yii\framework\db\ar\CActiveRecord.php(229): CComponent->__call('getRelationLabe...', Array)
+#1 C:\xampp2\htdocs\sirep\protected\views\mzgtbancoautores\_form.php(129): CActiveRecord->__call('getRelationLabe...', Array)
+#2 C:\xampp2\htdocs\sirep\yii\framework\web\CBaseController.php(126): require('C:\\xampp2\\htdoc...')
+#3 C:\xampp2\htdocs\sirep\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp2\\htdoc...', Array, true)
+#4 C:\xampp2\htdocs\sirep\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp2\\htdoc...', Array, true)
+#5 C:\xampp2\htdocs\sirep\protected\views\mzgtbancoautores\create.php(20): CController->renderPartial('_form', Array)
+#6 C:\xampp2\htdocs\sirep\yii\framework\web\CBaseController.php(126): require('C:\\xampp2\\htdoc...')
+#7 C:\xampp2\htdocs\sirep\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp2\\htdoc...', Array, true)
+#8 C:\xampp2\htdocs\sirep\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp2\\htdoc...', Array, true)
+#9 C:\xampp2\htdocs\sirep\yii\framework\web\CController.php(785): CController->renderPartial('create', Array, true)
+#10 C:\xampp2\htdocs\sirep\protected\controllers\MzgtbancoautoresController.php(78): CController->render('create', Array)
+#11 C:\xampp2\htdocs\sirep\yii\framework\web\actions\CInlineAction.php(49): MzgtbancoautoresController->actionCreate()
+#12 C:\xampp2\htdocs\sirep\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\xampp2\htdocs\sirep\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\xampp2\htdocs\sirep\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp2\htdocs\sirep\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#16 C:\xampp2\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('mzgtbancoautore...')
+#17 C:\xampp2\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#18 C:\xampp2\htdocs\sirep\index.php(15): CApplication->run()
+#19 {main}
+REQUEST_URI=/sirep/mzgtbancoautores/create.html
+HTTP_REFERER=http://localhost/sirep/mzgtbancoautores/create.html
+---
+2019/03/22 18:16:56 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "sirep" solicitada. in C:\xampp2\htdocs\sirep\yii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp2\htdocs\sirep\yii\framework\web\CController.php(270): CController->missingAction('sirep')
+#1 C:\xampp2\htdocs\sirep\yii\framework\web\CWebApplication.php(282): CController->run('sirep')
+#2 C:\xampp2\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('mzgtbancoautore...')
+#3 C:\xampp2\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp2\htdocs\sirep\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/sirep/mzgtbancoautores/sirep/images/banner.png
+HTTP_REFERER=http://localhost/sirep/mzgtbancoautores/create.html
+---
+2019/03/22 18:17:00 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "sirep" solicitada. in C:\xampp2\htdocs\sirep\yii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp2\htdocs\sirep\yii\framework\web\CController.php(270): CController->missingAction('sirep')
+#1 C:\xampp2\htdocs\sirep\yii\framework\web\CWebApplication.php(282): CController->run('sirep')
+#2 C:\xampp2\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('mzgtpublicacion...')
+#3 C:\xampp2\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp2\htdocs\sirep\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/sirep/mzgtpublicaciones/sirep/images/banner.png
+HTTP_REFERER=http://localhost/sirep/mzgtpublicaciones/create.html
+---
+2019/03/22 18:17:01 [error] [exception.CException] CException: Mzgtbancoautores y sus behaviors no tienen un método o closure llamado "getRelationLabel". in C:\xampp2\htdocs\sirep\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp2\htdocs\sirep\yii\framework\db\ar\CActiveRecord.php(229): CComponent->__call('getRelationLabe...', Array)
+#1 C:\xampp2\htdocs\sirep\protected\views\mzgtbancoautores\_form.php(129): CActiveRecord->__call('getRelationLabe...', Array)
+#2 C:\xampp2\htdocs\sirep\yii\framework\web\CBaseController.php(126): require('C:\\xampp2\\htdoc...')
+#3 C:\xampp2\htdocs\sirep\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp2\\htdoc...', Array, true)
+#4 C:\xampp2\htdocs\sirep\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp2\\htdoc...', Array, true)
+#5 C:\xampp2\htdocs\sirep\protected\views\mzgtbancoautores\create.php(20): CController->renderPartial('_form', Array)
+#6 C:\xampp2\htdocs\sirep\yii\framework\web\CBaseController.php(126): require('C:\\xampp2\\htdoc...')
+#7 C:\xampp2\htdocs\sirep\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp2\\htdoc...', Array, true)
+#8 C:\xampp2\htdocs\sirep\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp2\\htdoc...', Array, true)
+#9 C:\xampp2\htdocs\sirep\yii\framework\web\CController.php(785): CController->renderPartial('create', Array, true)
+#10 C:\xampp2\htdocs\sirep\protected\controllers\MzgtbancoautoresController.php(78): CController->render('create', Array)
+#11 C:\xampp2\htdocs\sirep\yii\framework\web\actions\CInlineAction.php(49): MzgtbancoautoresController->actionCreate()
+#12 C:\xampp2\htdocs\sirep\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\xampp2\htdocs\sirep\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\xampp2\htdocs\sirep\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp2\htdocs\sirep\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#16 C:\xampp2\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('mzgtbancoautore...')
+#17 C:\xampp2\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#18 C:\xampp2\htdocs\sirep\index.php(15): CApplication->run()
+#19 {main}
+REQUEST_URI=/sirep/mzgtbancoautores/create.html
+HTTP_REFERER=http://localhost/sirep/mzgtpublicaciones/create.html
+---
+2019/03/22 18:17:01 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "sirep" solicitada. in C:\xampp2\htdocs\sirep\yii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp2\htdocs\sirep\yii\framework\web\CController.php(270): CController->missingAction('sirep')
+#1 C:\xampp2\htdocs\sirep\yii\framework\web\CWebApplication.php(282): CController->run('sirep')
+#2 C:\xampp2\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('mzgtbancoautore...')
+#3 C:\xampp2\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp2\htdocs\sirep\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/sirep/mzgtbancoautores/sirep/images/banner.png
+HTTP_REFERER=http://localhost/sirep/mzgtbancoautores/create.html
+---
+2019/03/22 18:18:22 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "sirep" solicitada. in C:\xampp2\htdocs\sirep\yii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp2\htdocs\sirep\yii\framework\web\CController.php(270): CController->missingAction('sirep')
+#1 C:\xampp2\htdocs\sirep\yii\framework\web\CWebApplication.php(282): CController->run('sirep')
+#2 C:\xampp2\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('mzgtbancoautore...')
+#3 C:\xampp2\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp2\htdocs\sirep\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/sirep/mzgtbancoautores/sirep/images/banner.png
+HTTP_REFERER=http://localhost/sirep/mzgtbancoautores/create.html
+---
