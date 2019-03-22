@@ -197,7 +197,7 @@
 		</div><!-- row -->
                 <div class="row" id="div_numeropaginas">
 		<?php //echo $form->labelEx($model,'MZGTPUBLICACIONES_NUMEROPAGINAS'); ?>
-                <?php echo '<label for="Mzgtpublicaciones_MZGTPUBLICACIONES_NUMEROPAGINAS">Número de páginas <span id="req_numeropaginas" class="required">*</span></label>'; ?>    
+                <?php echo '<label for="Mzgtpublicaciones_MZGTPUBLICACIONES_NUMEROPAGINAS">Número de páginas <span id="req_numeropaginas"></span></label>'; ?>    
 		<?php echo $form->textField($model, 'MZGTPUBLICACIONES_NUMEROPAGINAS', array('maxlength' => 200)); ?>
 		<?php echo '<label>total de páginas del artículo</label>'; ?>
                 <?php echo $form->error($model,'MZGTPUBLICACIONES_NUMEROPAGINAS'); ?>

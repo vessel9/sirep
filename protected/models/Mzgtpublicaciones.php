@@ -118,7 +118,7 @@ class Mzgtpublicaciones extends BaseMzgtpublicaciones
                         //Validacion personalizada: Nombre evento
                         array('MZGTPUBLICACIONES_NOMBREEVENTO','validacionNombreEvento'),
                         //Validacion personalizada: Numero paginas
-                        array('MZGTPUBLICACIONES_NUMEROPAGINAS','validacionNumeroPaginas'),
+                        
                         //Validacion personalizada: Numero paginas
                         array('MZGTPUBLICACIONES_PAGINAS','validacionPaginas'),
                         //'setOnEmpty' => true | 'value' => null
