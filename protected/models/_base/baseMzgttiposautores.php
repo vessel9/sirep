@@ -1,25 +1,23 @@
 <?php
 
 /**
- * This is the model class for table "mzgttipoautores".
+ * This is the model class for table "mzgttiposautores".
  *
- * The followings are the available columns in table 'mzgttipoautores':
- * @property integer $PK_MZGTIPOSAUTORES
- * @property string $PK_MZGTIPOSAUTORES_DESCRIPCION
- * @property integer $PK_MZGTIPOSAUTORES_CODIGO
- * @property integer $PK_MZGTIPOSAUTORES_ESTADO
+ * The followings are the available columns in table 'mzgttiposautores':
+ * @property integer $PK_MZGTTIPOSAUTORES
+ * @property string $MZGTTIPOSAUTORES_DESc
  *
  * The followings are the available model relations:
  * @property Mzgtbancoautores[] $mzgtbancoautores
  */
-class baseMzgttipoautores extends CActiveRecord
+class baseMzgttiposautores extends CActiveRecord
 {
 	/**
 	 * @return string the associated database table name
 	 */
 	public function tableName()
 	{
-		return 'mzgttipoautores';
+		return 'mzgttiposautores';
 	}
 
 	/**
@@ -30,12 +28,12 @@ class baseMzgttipoautores extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('PK_MZGTIPOSAUTORES, PK_MZGTIPOSAUTORES_DESCRIPCION, PK_MZGTIPOSAUTORES_CODIGO, PK_MZGTIPOSAUTORES_ESTADO', 'required'),
-			array('PK_MZGTIPOSAUTORES, PK_MZGTIPOSAUTORES_CODIGO, PK_MZGTIPOSAUTORES_ESTADO', 'numerical', 'integerOnly'=>true),
-			array('PK_MZGTIPOSAUTORES_DESCRIPCION', 'length', 'max'=>60),
+			array('PK_MZGTTIPOSAUTORES', 'required'),
+			array('PK_MZGTTIPOSAUTORES', 'numerical', 'integerOnly'=>true),
+			array('MZGTTIPOSAUTORES_DESc', 'length', 'max'=>100),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('PK_MZGTIPOSAUTORES, PK_MZGTIPOSAUTORES_DESCRIPCION, PK_MZGTIPOSAUTORES_CODIGO, PK_MZGTIPOSAUTORES_ESTADO', 'safe', 'on'=>'search'),
+			array('PK_MZGTTIPOSAUTORES, MZGTTIPOSAUTORES_DESc', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -47,7 +45,7 @@ class baseMzgttipoautores extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'mzgtbancoautores' => array(self::HAS_MANY, 'Mzgtbancoautores', 'FK1_MZGTBANCOAUTORES_MZGTIPOAUTORES'),
+			'mzgtbancoautores' => array(self::HAS_MANY, 'Mzgtbancoautores', 'FK1_MZGTBANCOAUTORES_MZGTTIPOAUTORES_PK'),
 		);
 	}
 
@@ -57,10 +55,8 @@ class baseMzgttipoautores extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'PK_MZGTIPOSAUTORES' => 'Pk Mzgtiposautores',
-			'PK_MZGTIPOSAUTORES_DESCRIPCION' => 'Pk Mzgtiposautores Descripcion',
-			'PK_MZGTIPOSAUTORES_CODIGO' => 'Pk Mzgtiposautores Codigo',
-			'PK_MZGTIPOSAUTORES_ESTADO' => 'Pk Mzgtiposautores Estado',
+			'PK_MZGTTIPOSAUTORES' => 'Pk Mzgttiposautores',
+			'MZGTTIPOSAUTORES_DESc' => 'Mzgttiposautores Desc',
 		);
 	}
 
@@ -82,10 +78,8 @@ class baseMzgttipoautores extends CActiveRecord
 
 		$criteria=new CDbCriteria;
 
-		$criteria->compare('PK_MZGTIPOSAUTORES',$this->PK_MZGTIPOSAUTORES);
-		$criteria->compare('PK_MZGTIPOSAUTORES_DESCRIPCION',$this->PK_MZGTIPOSAUTORES_DESCRIPCION,true);
-		$criteria->compare('PK_MZGTIPOSAUTORES_CODIGO',$this->PK_MZGTIPOSAUTORES_CODIGO);
-		$criteria->compare('PK_MZGTIPOSAUTORES_ESTADO',$this->PK_MZGTIPOSAUTORES_ESTADO);
+		$criteria->compare('PK_MZGTTIPOSAUTORES',$this->PK_MZGTTIPOSAUTORES);
+		$criteria->compare('MZGTTIPOSAUTORES_DESc',$this->MZGTTIPOSAUTORES_DESc,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
@@ -96,7 +90,7 @@ class baseMzgttipoautores extends CActiveRecord
 	 * Returns the static model of the specified AR class.
 	 * Please note that you should have this exact method in all your CActiveRecord descendants!
 	 * @param string $className active record class name.
-	 * @return baseMzgttipoautores the static model class
+	 * @return baseMzgttiposautores the static model class
 	 */
 	public static function model($className=__CLASS__)
 	{

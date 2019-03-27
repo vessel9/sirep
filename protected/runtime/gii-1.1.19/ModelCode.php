@@ -4,7 +4,7 @@ return array (
   'connectionId' => 'db',
   'tablePrefix' => '',
   'modelPath' => 'application.models._base',
-  'baseClass' => 'CActiveRecord',
-  'buildRelations' => '1',
+  'baseClass' => 'GxActiveRecord',
+  'buildRelations' => '0',
   'commentsAsLabels' => '0',
 );
