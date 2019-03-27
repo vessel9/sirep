@@ -52,32 +52,10 @@
 		<?php echo $form->error($model,'MZGTBANCOAUTORES_TRATO'); ?>
 		</div><!-- row -->
 		<div class="column">
-                <?php echo $form->labelEx($model,'MZGTBANCOAUTORES_APELLIDO_PATERNO'); ?>
-		<?php if ($model->MZGTBANCOAUTORES_APELLIDO_PATERNO!=''){ $value=$model->MZGTBANCOAUTORES_APELLIDO_PATERNO; } else { $value=''; }
-                        echo $form->hiddenField($model, 'MZGTBANCOAUTORES_APELLIDO_PATERNO');
-                        $this->widget('zii.widgets.jui.CJuiAutoComplete', array(
-                            'name'=>'MZGTBANCOAUTORES_APELLIDO_PATERNO',
-                            'model'=>$model,
-                            'value'=>$value,
-                            'sourceUrl'=>$this->createUrl('Mzgtbancoautores/listarApellidosPaternos'),
-                            'options'=>array(
-                                'minLength'=>'1',
-                                'showAnim'=>'fold',
-                                'select' => 'js:function(event, ui)
-                                { jQuery("#MZGTBANCOAUTORES_APELLIDO_PATERNO").val(ui.item["value"]);
-                                  jQuery("#Mzgtbancoautores_MZGTBANCOAUTORES_APELLIDO_MATERNO").val(ui.item["apellido_materno"]);
-                                  jQuery("#Mzgtbancoautores_MZGTBANCOAUTORES_PRIMER_NOMBRE").val(ui.item["primer_nombre"]);
-                                  jQuery("#Mzgtbancoautores_MZGTBANCOAUTORES_SEGUNDO_NOMBRE").val(ui.item["segundo_nombre"]);
-                                }',
-                            ),
-                            'htmlOptions'=>array(
-                                'maxlength' => 100,
-                                'size' => 50,
-                                'style'=>'text-transform:uppercase;'
-                            ),
-                        )); ?>
-		<?php //echo $form->textField($model, 'MZGTBANCOAUTORES_APELLIDO_PATERNO', array('maxlength' => 255, 'size'=>100)); ?>
+        <?php echo $form->labelEx($model,'MZGTBANCOAUTORES_APELLIDO_PATERNO'); ?>
+		<?php echo $form->textField($model, 'MZGTBANCOAUTORES_APELLIDO_PATERNO', array('maxlength' => 255, 'size'=>50, 'style'=>'text-transform:uppercase;')); ?>
 		<?php echo $form->error($model,'MZGTBANCOAUTORES_APELLIDO_PATERNO'); ?>
+		
 		</div><!-- row -->
 		<div class="row">
 		<?php echo $form->labelEx($model,'MZGTBANCOAUTORES_APELLIDO_MATERNO'); ?>

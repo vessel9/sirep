@@ -8152,3 +8152,186 @@ Stack trace:
 REQUEST_URI=/sirep/mzgtbancoautores/sirep/images/banner.png
 HTTP_REFERER=http://localhost/sirep/mzgtbancoautores/256.html
 ---
+2019/03/27 21:27:53 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "sirep/images/banner.png" in C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sirep/images/ba...')
+#1 C:\xampp\htdocs\sirep-2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sirep-2\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep-2/sirep/images/banner.png
+HTTP_REFERER=http://localhost/sirep-2/
+---
+2019/03/27 21:27:58 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "sirep" solicitada. in C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php(270): CController->missingAction('sirep')
+#1 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(282): CController->run('sirep')
+#2 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('cruge/ui/sirep/...')
+#3 C:\xampp\htdocs\sirep-2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\sirep-2\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/sirep-2/cruge/ui/sirep/images/banner.png
+HTTP_REFERER=http://localhost/sirep-2/cruge/ui/login.html
+---
+2019/03/27 21:28:09 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "sirep/images/banner.png" in C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sirep/images/ba...')
+#1 C:\xampp\htdocs\sirep-2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sirep-2\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep-2/sirep/images/banner.png
+HTTP_REFERER=http://localhost/sirep-2/
+---
+2019/03/27 21:28:24 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "sirep" solicitada. in C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php(270): CController->missingAction('sirep')
+#1 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(282): CController->run('sirep')
+#2 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('mzgtbancoautore...')
+#3 C:\xampp\htdocs\sirep-2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\sirep-2\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/sirep-2/mzgtbancoautores/sirep/images/banner.png
+HTTP_REFERER=http://localhost/sirep-2/mzgtbancoautores/create.html
+---
+2019/03/27 21:29:09 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "sirep" solicitada. in C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php(270): CController->missingAction('sirep')
+#1 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(282): CController->run('sirep')
+#2 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('mzgtbancoautore...')
+#3 C:\xampp\htdocs\sirep-2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\sirep-2\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/sirep-2/mzgtbancoautores/sirep/images/banner.png
+HTTP_REFERER=http://localhost/sirep-2/mzgtbancoautores/create.html
+---
+2019/03/27 21:29:54 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "sirep" solicitada. in C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php(270): CController->missingAction('sirep')
+#1 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(282): CController->run('sirep')
+#2 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('mzgtbancoautore...')
+#3 C:\xampp\htdocs\sirep-2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\sirep-2\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/sirep-2/mzgtbancoautores/sirep/images/banner.png
+HTTP_REFERER=http://localhost/sirep-2/mzgtbancoautores/create.html
+---
+2019/03/27 21:29:58 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "sirep" solicitada. in C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php(270): CController->missingAction('sirep')
+#1 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(282): CController->run('sirep')
+#2 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('mzgtbancoautore...')
+#3 C:\xampp\htdocs\sirep-2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\sirep-2\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/sirep-2/mzgtbancoautores/sirep/images/banner.png
+HTTP_REFERER=http://localhost/sirep-2/mzgtbancoautores/create.html
+---
+2019/03/27 21:30:17 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "sirep" solicitada. in C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php(270): CController->missingAction('sirep')
+#1 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(282): CController->run('sirep')
+#2 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('mzgtbancoautore...')
+#3 C:\xampp\htdocs\sirep-2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\sirep-2\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/sirep-2/mzgtbancoautores/sirep/images/banner.png
+HTTP_REFERER=http://localhost/sirep-2/mzgtbancoautores/create.html
+---
+2019/03/27 21:31:56 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "sirep" solicitada. in C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php(270): CController->missingAction('sirep')
+#1 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(282): CController->run('sirep')
+#2 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('mzgtbancoautore...')
+#3 C:\xampp\htdocs\sirep-2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\sirep-2\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/sirep-2/mzgtbancoautores/sirep/images/banner.png
+HTTP_REFERER=http://localhost/sirep-2/mzgtbancoautores/create.html
+---
+2019/03/27 21:32:02 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "sirep" solicitada. in C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php(270): CController->missingAction('sirep')
+#1 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(282): CController->run('sirep')
+#2 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('mzgtpublicacion...')
+#3 C:\xampp\htdocs\sirep-2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\sirep-2\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/sirep-2/mzgtpublicaciones/sirep/images/banner.png
+HTTP_REFERER=http://localhost/sirep-2/mzgtpublicaciones/create.html
+---
+2019/03/27 21:32:06 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "sirep" solicitada. in C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php(270): CController->missingAction('sirep')
+#1 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(282): CController->run('sirep')
+#2 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('mzgtbancoautore...')
+#3 C:\xampp\htdocs\sirep-2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\sirep-2\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/sirep-2/mzgtbancoautores/sirep/images/banner.png
+HTTP_REFERER=http://localhost/sirep-2/mzgtbancoautores/create.html
+---
+2019/03/27 21:32:45 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "sirep" solicitada. in C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php(270): CController->missingAction('sirep')
+#1 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(282): CController->run('sirep')
+#2 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('mzgtbancoautore...')
+#3 C:\xampp\htdocs\sirep-2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\sirep-2\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/sirep-2/mzgtbancoautores/sirep/images/banner.png
+HTTP_REFERER=http://localhost/sirep-2/mzgtbancoautores/create.html
+---
+2019/03/27 21:37:07 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "sirep" solicitada. in C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php(270): CController->missingAction('sirep')
+#1 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(282): CController->run('sirep')
+#2 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('mzgtpublicacion...')
+#3 C:\xampp\htdocs\sirep-2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\sirep-2\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/sirep-2/mzgtpublicaciones/sirep/images/banner.png
+HTTP_REFERER=http://localhost/sirep-2/mzgtpublicaciones/create.html
+---
+2019/03/27 21:37:09 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "sirep" solicitada. in C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php(270): CController->missingAction('sirep')
+#1 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(282): CController->run('sirep')
+#2 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('mzgtbancoautore...')
+#3 C:\xampp\htdocs\sirep-2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\sirep-2\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/sirep-2/mzgtbancoautores/sirep/images/banner.png
+HTTP_REFERER=http://localhost/sirep-2/mzgtbancoautores/index.html
+---
+2019/03/27 21:37:13 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "sirep" solicitada. in C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php(270): CController->missingAction('sirep')
+#1 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(282): CController->run('sirep')
+#2 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('mzgtbancoautore...')
+#3 C:\xampp\htdocs\sirep-2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\sirep-2\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/sirep-2/mzgtbancoautores/sirep/images/banner.png
+HTTP_REFERER=http://localhost/sirep-2/mzgtbancoautores/create.html
+---
+2019/03/27 21:37:34 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "sirep" solicitada. in C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php(270): CController->missingAction('sirep')
+#1 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(282): CController->run('sirep')
+#2 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('mzgtbancoautore...')
+#3 C:\xampp\htdocs\sirep-2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\sirep-2\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/sirep-2/mzgtbancoautores/sirep/images/banner.png
+HTTP_REFERER=http://localhost/sirep-2/mzgtbancoautores/361.html
+---
+2019/03/27 21:37:40 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "sirep" solicitada. in C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php(270): CController->missingAction('sirep')
+#1 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(282): CController->run('sirep')
+#2 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('mzgtbancoautore...')
+#3 C:\xampp\htdocs\sirep-2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\sirep-2\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/sirep-2/mzgtbancoautores/sirep/images/banner.png
+HTTP_REFERER=http://localhost/sirep-2/mzgtbancoautores/create.html
+---
