@@ -8152,3 +8152,14 @@ Stack trace:
 REQUEST_URI=/sirep/mzgtbancoautores/sirep/images/banner.png
 HTTP_REFERER=http://localhost/sirep/mzgtbancoautores/256.html
 ---
+2019/03/27 21:08:37 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "sirep" solicitada. in C:\xampp2\htdocs\sirep\yii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp2\htdocs\sirep\yii\framework\web\CController.php(270): CController->missingAction('sirep')
+#1 C:\xampp2\htdocs\sirep\yii\framework\web\CWebApplication.php(282): CController->run('sirep')
+#2 C:\xampp2\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/sirep/imag...')
+#3 C:\xampp2\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp2\htdocs\sirep\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/sirep/site/sirep/images/banner.png
+HTTP_REFERER=http://localhost/sirep/site/index.html
+---
