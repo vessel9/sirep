@@ -8392,3 +8392,12 @@ Stack trace:
 REQUEST_URI=/sirep/mzgtbancoautores/sirep/images/banner.png
 HTTP_REFERER=http://localhost/sirep/mzgtbancoautores/create.html
 ---
+2019/03/29 17:07:37 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "sirep/images/banner.png" in C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sirep/images/ba...')
+#1 C:\xampp\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sirep\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep/sirep/images/banner.png
+HTTP_REFERER=http://localhost/sirep/
+---
