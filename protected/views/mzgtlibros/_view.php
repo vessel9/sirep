@@ -59,6 +59,9 @@
 	<?php echo GxHtml::encode($data->getAttributeLabel('MZGTLIBROS_ANIO')); ?>:
 	<?php echo GxHtml::encode($data->MZGTLIBROS_ANIO); ?>
 	<br />
+	<?php echo GxHtml::encode($data->getAttributeLabel('MZGTLIBROS_ENLACE')); ?>:
+	<?php echo GxHtml::encode($data->MZGTLIBROS_ENLACE); ?>
+	<br />
 	<?php echo GxHtml::encode($data->getAttributeLabel('MZGTLIBROS_VOLUMEN')); ?>:
 	<?php echo GxHtml::encode($data->MZGTLIBROS_VOLUMEN); ?>
 	<br />
