@@ -26,6 +26,7 @@
  * @property string $MZGTLIBROS_EDITORIAL
  * @property string $MZGTLIBROS_EDICION
  * @property string $MZGTLIBROS_EDITOR
+ * @property string $MZGTLIBROS_ENLACE
  * @property string $MZGTLIBROS_CIUDAD
  * @property string $MZGTLIBROS_ANIO
  * @property string $MZGTLIBROS_VOLUMEN
@@ -69,6 +70,11 @@ abstract class BaseMzgtlibros extends GxActiveRecord {
 			array('MZGTLIBROS_CODIGOISBN, MZGTLIBROS_NOMBRELIBRO, MZGTLIBROS_NOMBRECAPITULO, MZGTLIBROS_PAIS, MZGTLIBROS_DEPARTAMENTO, MZGTLIBROS_CARRERA, MZGTLIBROS_EVIDENCIA, MZGTLIBROS_EDITORIAL, MZGTLIBROS_EDICION, MZGTLIBROS_EDITOR, MZGTLIBROS_CIUDAD', 'length', 'max'=>255),
 			array('MZGTLIBROS_ANIO, MZGTLIBROS_ANIOPUBLICACION', 'length', 'max'=>10),
 			array('MZGTLIBROS_VOLUMEN', 'length', 'max'=>200),
+
+			//*enlace///
+			array('MZGTLIBROS_ENLACE', 'length', 'max'=>1000),
+			//*enlace///
+
 			array('MZGTLIBROS_NUMEROPAGINAS', 'length', 'max'=>150),
 			array('MZGTLIBROS_DIAPUBLICACION, MZGTLIBROS_MESPUBLICACION', 'length', 'max'=>5),
 			array('MZGTLIBROS_PAGINASCAPITULO', 'length', 'max'=>100),
@@ -117,6 +123,7 @@ abstract class BaseMzgtlibros extends GxActiveRecord {
 			'MZGTLIBROS_CIUDAD' => Yii::t('app', 'Mzgtlibros Ciudad'),
 			'MZGTLIBROS_ANIO' => Yii::t('app', 'Mzgtlibros Anio'),
 			'MZGTLIBROS_VOLUMEN' => Yii::t('app', 'Mzgtlibros Volumen'),
+			'MZGTLIBROS_ENLACE' => Yii::t('app', 'Mzgtlibros Enlace'),
 			'MZGTLIBROS_NUMEROPAGINAS' => Yii::t('app', 'Mzgtlibros Numeropaginas'),
 			'MZGTLIBROS_DIAPUBLICACION' => Yii::t('app', 'Mzgtlibros Diapublicacion'),
 			'MZGTLIBROS_MESPUBLICACION' => Yii::t('app', 'Mzgtlibros Mespublicacion'),
@@ -156,6 +163,7 @@ abstract class BaseMzgtlibros extends GxActiveRecord {
 		$criteria->compare('MZGTLIBROS_CIUDAD', $this->MZGTLIBROS_CIUDAD, true);
 		$criteria->compare('MZGTLIBROS_ANIO', $this->MZGTLIBROS_ANIO, true);
 		$criteria->compare('MZGTLIBROS_VOLUMEN', $this->MZGTLIBROS_VOLUMEN, true);
+		$criteria->compare('MZGTLIBROS_ENLACE', $this->MZGTLIBROS_ENLACE, true);
 		$criteria->compare('MZGTLIBROS_NUMEROPAGINAS', $this->MZGTLIBROS_NUMEROPAGINAS, true);
 		$criteria->compare('MZGTLIBROS_DIAPUBLICACION', $this->MZGTLIBROS_DIAPUBLICACION, true);
 		$criteria->compare('MZGTLIBROS_MESPUBLICACION', $this->MZGTLIBROS_MESPUBLICACION, true);

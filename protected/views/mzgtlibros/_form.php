@@ -65,6 +65,16 @@
 		<?php echo $form->textField($model, 'MZGTLIBROS_EDITOR', array('maxlength' => 150, 'size'=>75)); ?>
 		<?php echo $form->error($model,'MZGTLIBROS_EDITOR'); ?>
 		</div><!-- row -->
+
+		<!--ENLACE --->
+		<div class="row" id="div_enlace">
+		<?php //echo $form->labelEx($model,'MZGTLIBROS_ENLACE'); ?>
+                <?php echo '<label for="Mzgtlibros_MZGTLIBROS_ENLACE">Enlace <span id="req_enlace" class="required">*</span></label>'; ?>
+		<?php echo $form->textField($model, 'MZGTLIBROS_ENLACE', array('maxlength' => 500, 'size'=>100)); ?>
+		<?php echo $form->error($model,'MZGTLIBROS_ENLACE'); ?>
+		</div><!-- row -->
+		<!--ENLACE-------->
+		
 		<div class="row" id="div_ciudad_libro">
 		<?php echo $form->labelEx($model,'MZGTLIBROS_CIUDAD'); ?>
                 <?php //echo '<label for="Mzgtlibros_MZGTLIBROS_CIUDAD">Ciudad <span id="req_ciudad_libro" class="required">*</span></label>'; ?>

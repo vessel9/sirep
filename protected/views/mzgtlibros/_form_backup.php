@@ -138,6 +138,15 @@
 		<?php echo $form->textField($model, 'MZGTLIBROS_ANIOPUBLICACION', array('maxlength' => 10)); ?>
 		<?php echo $form->error($model,'MZGTLIBROS_ANIOPUBLICACION'); ?>
 		</div><!-- row -->
+
+		<!--ENLACE------>
+		<div class="row">
+		<?php echo $form->labelEx($model,'MZGTLIBROS_ENLACE'); ?>
+		<?php echo $form->textField($model, 'MZGTLIBROS_ENLACE', array('maxlength' => 1000)); ?>
+		<?php echo $form->error($model,'MZGTLIBROS_ENLACE'); ?>
+		</div><!-- row -->
+		<!--ENLACE------>
+		
 		<div class="row">
 		<?php echo $form->labelEx($model,'MZGTLIBROS_PAGINASCAPITULO'); ?>
 		<?php echo $form->textField($model, 'MZGTLIBROS_PAGINASCAPITULO', array('maxlength' => 100)); ?>
