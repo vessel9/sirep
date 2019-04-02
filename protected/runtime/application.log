@@ -8789,3 +8789,36 @@ Stack trace:
 REQUEST_URI=/sirep-1/mzgtlibros/sirep/images/banner.png
 HTTP_REFERER=http://localhost/sirep-1/mzgtlibros/68.html
 ---
+2019/04/02 18:26:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "sirep" solicitada.' in C:\xampp\htdocs\sirep-1\yii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\sirep-1\yii\framework\web\CController.php(270): CController->missingAction('sirep')
+#1 C:\xampp\htdocs\sirep-1\yii\framework\web\CWebApplication.php(282): CController->run('sirep')
+#2 C:\xampp\htdocs\sirep-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('mzgtbancoautore...')
+#3 C:\xampp\htdocs\sirep-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\sirep-1\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/sirep-1/mzgtbancoautores/sirep/images/banner.png
+HTTP_REFERER=http://localhost/sirep-1/mzgtbancoautores/create.html
+---
+2019/04/02 18:26:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "sirep" solicitada.' in C:\xampp\htdocs\sirep-1\yii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\sirep-1\yii\framework\web\CController.php(270): CController->missingAction('sirep')
+#1 C:\xampp\htdocs\sirep-1\yii\framework\web\CWebApplication.php(282): CController->run('sirep')
+#2 C:\xampp\htdocs\sirep-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('mzgtbancoautore...')
+#3 C:\xampp\htdocs\sirep-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\sirep-1\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/sirep-1/mzgtbancoautores/sirep/images/banner.png
+HTTP_REFERER=http://localhost/sirep-1/mzgtbancoautores/index.html
+---
+2019/04/02 18:26:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "sirep" solicitada.' in C:\xampp\htdocs\sirep-1\yii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\sirep-1\yii\framework\web\CController.php(270): CController->missingAction('sirep')
+#1 C:\xampp\htdocs\sirep-1\yii\framework\web\CWebApplication.php(282): CController->run('sirep')
+#2 C:\xampp\htdocs\sirep-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('mzgtbancoautore...')
+#3 C:\xampp\htdocs\sirep-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\sirep-1\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/sirep-1/mzgtbancoautores/sirep/images/banner.png
+HTTP_REFERER=http://localhost/sirep-1/mzgtbancoautores/1.html
+---
