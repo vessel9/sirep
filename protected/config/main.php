@@ -10,7 +10,7 @@ return array(
 	'name'=>'Sistema Informático para Registro de Eventos y Publicaciones',
 	'language'=>'es',
 	'sourceLanguage'=>'en',
-	'theme'=>'business3',
+	'theme'=>'classic',
 	'charset'=>'utf-8',
 
 	// preloading 'log' component

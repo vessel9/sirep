@@ -5,6 +5,6 @@ return array (
   'tablePrefix' => '',
   'modelPath' => 'application.models._base',
   'baseClass' => 'GxActiveRecord',
-  'buildRelations' => '0',
+  'buildRelations' => '1',
   'commentsAsLabels' => '0',
 );
