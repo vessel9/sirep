@@ -8822,3 +8822,199 @@ Stack trace:
 REQUEST_URI=/sirep-1/mzgtbancoautores/sirep/images/banner.png
 HTTP_REFERER=http://localhost/sirep-1/mzgtbancoautores/1.html
 ---
+2019/04/02 18:29:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "sirep" solicitada.' in C:\xampp\htdocs\sirep-1\yii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\sirep-1\yii\framework\web\CController.php(270): CController->missingAction('sirep')
+#1 C:\xampp\htdocs\sirep-1\yii\framework\web\CWebApplication.php(282): CController->run('sirep')
+#2 C:\xampp\htdocs\sirep-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('mzgtbancoautore...')
+#3 C:\xampp\htdocs\sirep-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\sirep-1\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/sirep-1/mzgtbancoautores/sirep/images/banner.png
+HTTP_REFERER=http://localhost/sirep-1/mzgtbancoautores/create.html
+---
+2019/04/02 18:59:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "sirep" solicitada.' in C:\xampp\htdocs\sirep-1\yii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\sirep-1\yii\framework\web\CController.php(270): CController->missingAction('sirep')
+#1 C:\xampp\htdocs\sirep-1\yii\framework\web\CWebApplication.php(282): CController->run('sirep')
+#2 C:\xampp\htdocs\sirep-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('mzgtbancoautore...')
+#3 C:\xampp\htdocs\sirep-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\sirep-1\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/sirep-1/mzgtbancoautores/sirep/images/banner.png
+HTTP_REFERER=http://localhost/sirep-1/mzgtbancoautores/create.html
+---
+2019/04/05 14:59:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "sirep/images/banner.png"' in C:\xampp\htdocs\sirep-1\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\sirep-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sirep/images/ba...')
+#1 C:\xampp\htdocs\sirep-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sirep-1\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep-1/sirep/images/banner.png
+HTTP_REFERER=http://localhost/sirep-1/
+---
+2019/04/05 15:00:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "sirep" solicitada.' in C:\xampp\htdocs\sirep-1\yii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\sirep-1\yii\framework\web\CController.php(270): CController->missingAction('sirep')
+#1 C:\xampp\htdocs\sirep-1\yii\framework\web\CWebApplication.php(282): CController->run('sirep')
+#2 C:\xampp\htdocs\sirep-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('cruge/ui/sirep/...')
+#3 C:\xampp\htdocs\sirep-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\sirep-1\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/sirep-1/cruge/ui/sirep/images/banner.png
+HTTP_REFERER=http://localhost/sirep-1/cruge/ui/login.html
+---
+2019/04/05 15:00:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "sirep/images/banner.png"' in C:\xampp\htdocs\sirep-1\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\sirep-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sirep/images/ba...')
+#1 C:\xampp\htdocs\sirep-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sirep-1\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep-1/sirep/images/banner.png
+HTTP_REFERER=http://localhost/sirep-1/
+---
+2019/04/05 15:01:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "sirep" solicitada.' in C:\xampp\htdocs\sirep-1\yii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\sirep-1\yii\framework\web\CController.php(270): CController->missingAction('sirep')
+#1 C:\xampp\htdocs\sirep-1\yii\framework\web\CWebApplication.php(282): CController->run('sirep')
+#2 C:\xampp\htdocs\sirep-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('mzgtbancoautore...')
+#3 C:\xampp\htdocs\sirep-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\sirep-1\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/sirep-1/mzgtbancoautores/sirep/images/banner.png
+HTTP_REFERER=http://localhost/sirep-1/mzgtbancoautores/create.html
+---
+2019/04/05 15:49:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "sirep" solicitada.' in C:\xampp\htdocs\sirep-1\yii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\sirep-1\yii\framework\web\CController.php(270): CController->missingAction('sirep')
+#1 C:\xampp\htdocs\sirep-1\yii\framework\web\CWebApplication.php(282): CController->run('sirep')
+#2 C:\xampp\htdocs\sirep-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('mzgtbancoautore...')
+#3 C:\xampp\htdocs\sirep-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\sirep-1\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/sirep-1/mzgtbancoautores/sirep/images/banner.png
+HTTP_REFERER=http://localhost/sirep-1/mzgtbancoautores/create.html
+---
+2019/04/05 16:20:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "sirep/images/banner.png"' in C:\xampp\htdocs\sirep-1\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\sirep-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sirep/images/ba...')
+#1 C:\xampp\htdocs\sirep-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sirep-1\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep-1/sirep/images/banner.png
+HTTP_REFERER=http://localhost/sirep-1/
+---
+2019/04/05 16:20:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "sirep" solicitada.' in C:\xampp\htdocs\sirep-1\yii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\sirep-1\yii\framework\web\CController.php(270): CController->missingAction('sirep')
+#1 C:\xampp\htdocs\sirep-1\yii\framework\web\CWebApplication.php(282): CController->run('sirep')
+#2 C:\xampp\htdocs\sirep-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('mzgtbancoautore...')
+#3 C:\xampp\htdocs\sirep-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\sirep-1\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/sirep-1/mzgtbancoautores/sirep/images/banner.png
+HTTP_REFERER=http://localhost/sirep-1/mzgtbancoautores/create.html
+---
+2019/04/09 21:54:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "sirep/images/banner.png"' in C:\xampp\htdocs\sirep-1\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\sirep-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sirep/images/ba...')
+#1 C:\xampp\htdocs\sirep-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sirep-1\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep-1/sirep/images/banner.png
+HTTP_REFERER=http://localhost/sirep-1/
+---
+2019/04/09 21:54:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "sirep" solicitada.' in C:\xampp\htdocs\sirep-1\yii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\sirep-1\yii\framework\web\CController.php(270): CController->missingAction('sirep')
+#1 C:\xampp\htdocs\sirep-1\yii\framework\web\CWebApplication.php(282): CController->run('sirep')
+#2 C:\xampp\htdocs\sirep-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('cruge/ui/sirep/...')
+#3 C:\xampp\htdocs\sirep-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\sirep-1\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/sirep-1/cruge/ui/sirep/images/banner.png
+HTTP_REFERER=http://localhost/sirep-1/cruge/ui/login.html
+---
+2019/04/09 21:54:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "sirep/images/banner.png"' in C:\xampp\htdocs\sirep-1\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\sirep-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sirep/images/ba...')
+#1 C:\xampp\htdocs\sirep-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sirep-1\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep-1/sirep/images/banner.png
+HTTP_REFERER=http://localhost/sirep-1/
+---
+2019/04/09 22:08:29 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\sirep-1\protected\controllers\ReportesController.php:46)
+Stack trace:
+#0 C:\xampp\htdocs\sirep-1\yii\framework\web\CController.php(286): ReportesController->runAction()
+#1 C:\xampp\htdocs\sirep-1\yii\framework\web\CController.php(265): ReportesController->runActionWithFilters()
+#2 C:\xampp\htdocs\sirep-1\yii\framework\web\CWebApplication.php(282): ReportesController->run()
+#3 C:\xampp\htdocs\sirep-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\sirep-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\sirep-1\index.php(15): CWebApplication->run()
+REQUEST_URI=/sirep-1/reportes/listarPublicaciones.html
+2019/04/09 22:08:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "sirep" solicitada.' in C:\xampp\htdocs\sirep-1\yii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\sirep-1\yii\framework\web\CController.php(270): CController->missingAction('sirep')
+#1 C:\xampp\htdocs\sirep-1\yii\framework\web\CWebApplication.php(282): CController->run('sirep')
+#2 C:\xampp\htdocs\sirep-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('reportes/sirep/...')
+#3 C:\xampp\htdocs\sirep-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\sirep-1\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/sirep-1/reportes/sirep/images/banner.png
+HTTP_REFERER=http://localhost/sirep-1/reportes/listarPublicaciones.html
+---
+2019/04/11 17:33:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "sirep/images/banner.png"' in C:\xampp\htdocs\sirep-1\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\sirep-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sirep/images/ba...')
+#1 C:\xampp\htdocs\sirep-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sirep-1\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep-1/sirep/images/banner.png
+HTTP_REFERER=http://localhost/sirep-1/
+---
+2019/04/11 17:34:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "sirep/images/banner.png"' in C:\xampp\htdocs\sirep-1\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\sirep-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sirep/images/ba...')
+#1 C:\xampp\htdocs\sirep-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sirep-1\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep-1/sirep/images/banner.png
+HTTP_REFERER=http://localhost/sirep-1/
+---
+2019/04/11 17:35:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "sirep/images/banner.png"' in C:\xampp\htdocs\sirep-1\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\sirep-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sirep/images/ba...')
+#1 C:\xampp\htdocs\sirep-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sirep-1\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep-1/sirep/images/banner.png
+HTTP_REFERER=http://localhost/sirep-1/
+---
+2019/04/11 17:36:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "sirep/images/banner.png"' in C:\xampp\htdocs\sirep-1\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\sirep-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sirep/images/ba...')
+#1 C:\xampp\htdocs\sirep-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sirep-1\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep-1/sirep/images/banner.png
+HTTP_REFERER=http://localhost/sirep-1/
+---
+2019/04/11 17:37:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "sirep/images/banner.png"' in C:\xampp\htdocs\sirep-1\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\sirep-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sirep/images/ba...')
+#1 C:\xampp\htdocs\sirep-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sirep-1\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep-1/sirep/images/banner.png
+HTTP_REFERER=http://localhost/sirep-1/
+---
+2019/04/11 17:37:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "sirep/images/banner.png"' in C:\xampp\htdocs\sirep-1\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\sirep-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sirep/images/ba...')
+#1 C:\xampp\htdocs\sirep-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sirep-1\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep-1/sirep/images/banner.png
+HTTP_REFERER=http://localhost/sirep-1/
+---
