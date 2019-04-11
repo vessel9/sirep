@@ -46,6 +46,9 @@
 		<?php echo $form->textField($model, 'MZGTBANCOAUTORES_CEDULA', array('maxlength' => 255)); ?>
 		<?php echo $form->error($model,'MZGTBANCOAUTORES_CEDULA'); ?>
 		</div><!-- row -->
+                <?php echo $form->labelEx($model,'FK1_MZGTBANCOAUTORES_MZGTTIPOAUTORES_PK'); ?>
+		
+                </div><!-- row -->
 		<div class="row">
 		<?php echo $form->labelEx($model,'MZGTBANCOAUTORES_TRATO'); ?>
 		<?php echo $form->textField($model, 'MZGTBANCOAUTORES_TRATO', array('maxlength' => 5, 'size'=>5, 'style'=>'text-transform:uppercase;')); ?>
