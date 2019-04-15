@@ -179,16 +179,28 @@
 		</div><!-- row -->
             </fieldset>
 
-            <details>
+            <details open="open">
                 <summary style="background-color: #880000; color: white;"><b>Banco de Autores (clic para agregar autores)</b></summary>
-		<label><?php //echo GxHtml::encode($model->getRelationLabel('mzgtbancoautores')); ?></label>
-		<?php echo $form->checkBoxList($model, 'mzgtbancoautores', GxHtml::encodeEx(GxHtml::listDataEx(Mzgtbancoautores::model()->findAllAttributes(null, true)), false, true),
-                        array(
-                            'labelOptions' => array(
-                              "style"=>"display: inline;"
-                                ),
-                            )
-                        ); ?>
+                <h4 style="color: #C00; font-weight: bold; ">Seleccione en orden de autoría</h4>
+
+                <!-- Aquí va el grid de autores -->
+                <?php if (isset($model->PK_MZGTLIBROS))
+                        $libro = $model->PK_MZGTLIBROS;
+                       else
+                           $libro = 0;
+                       
+                    $this->widget('ext.widgets.multiselects.XMultiSelects',array(
+                        'leftTitle'=>'Actualmente en el libro',
+                        'leftName'=>'Mzgtlibros[mzgtbancoautores][]',
+                        'leftList'=> Mzgtbancoautores::model()->findBancoAutoresPorLibro($libro),
+                        'rightTitle'=>'Banco de autores',
+                        'rightName'=>'Mzgtbancoautores[mzgtlibros][]',
+                        'rightList'=>Mzgtbancoautores::model()->findBancoAutoresPorNoLibros($libro),
+                        'size'=>20,
+                        'width'=>'300px',
+                    ));
+                ?>
+                
             </details>
 
 <?php
