@@ -28,7 +28,7 @@
 	<div id="mainmenu">
             <?php $this->widget('application.extensions.mbmenu.MbMenu',array(
                     'items'=>array(
-                        array('label'=>'Home', 'url'=>array('/site/index')),
+                        array('label'=>'Inicio', 'url'=>array('/site/index')),
                         array('label'=>'Registrar', 
                             'visible'=>Yii::app()->user->checkAccess("menu_registrar"),
                             'items'=>array(
