@@ -11366,6 +11366,7 @@ REQUEST_URI=/sirep/images/banner.jpg
 HTTP_REFERER=http://localhost/sirep/cruge/ui/login.html
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 2019/04/15 19:10:53 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/banner.jpg" in C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/banner.j...')
@@ -11601,11 +11602,18 @@ REQUEST_URI=/sirep/images/banner.jpg
 HTTP_REFERER=http://localhost/sirep/site/index.html
 ---
 2019/04/16 15:37:55 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/banner.jpg" in C:\xampp2\htdocs\sirep\yii\framework\web\CWebApplication.php:286
+=======
+2019/04/16 15:20:57 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/banner.jpg" in C:\xampp2\htdocs\sirep\yii\framework\web\CWebApplication.php:286
+>>>>>>> comits
 Stack trace:
 #0 C:\xampp2\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/banner.j...')
 #1 C:\xampp2\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
 #2 C:\xampp2\htdocs\sirep\index.php(15): CApplication->run()
 #3 {main}
 REQUEST_URI=/sirep/images/banner.jpg
+<<<<<<< HEAD
 HTTP_REFERER=http://localhost/sirep/site/index.html
+=======
+HTTP_REFERER=http://localhost/sirep/cruge/ui/login.html
+>>>>>>> comits
 ---
