@@ -72,7 +72,7 @@ class Mzgtbancoautores extends BaseMzgtbancoautores
 		);
 	    return CHtml::listData($this->findAll($criteria),'PK_MZGTBANCOAUTORES','MZGTBANCOAUTORES_APELLIDO_PATERNO');
 	}
-        
+        Z
         /**
 	 * @param int $PK_MZGTPUBLICACIONES
 	 * @return array for listbuilder (PK_MZGTBANCOAUTORES => name)
