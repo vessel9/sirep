@@ -49,7 +49,7 @@
                             ),
                         array('label'=>'Banco de Autores',
                             'visible'=>Yii::app()->user->checkAccess("menu_bancoautores"),
-                            'url'=>array('/mzgtbancoautores/admin'),
+                            'url'=>array('/mzgtbancoautores/create'),
                         ),
                         array('label'=>'Exportar archivos CSV', 
                             'visible'=>Yii::app()->user->checkAccess("menu_exportar"),
