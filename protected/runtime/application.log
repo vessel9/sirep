@@ -11782,3 +11782,9 @@ Stack trace:
 REQUEST_URI=/sirep/images/banner.jpg
 HTTP_REFERER=http://localhost/sirep/site/index.html
 ---
+2019/04/16 16:33:09 [error] [application] UiController
+CrugeUser->validate es false
+<div class="errorSummary"><p>Por favor corrija los siguientes errores de ingreso:</p>
+<ul>
+<li>clave invalida</li>
+</ul></div>
