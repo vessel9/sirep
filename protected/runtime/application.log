@@ -8348,6 +8348,87 @@ REQUEST_URI=/sirep/site/sirep/images/banner.png
 HTTP_REFERER=http://localhost/sirep/site/index.html
 >>>>>>> eaef3bb78419432df6731fc1f8279063a8a99d8d
 ---
+<<<<<<< HEAD
+2019/03/27 21:48:06 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "sirep" solicitada. in C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php(270): CController->missingAction('sirep')
+#1 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(282): CController->run('sirep')
+#2 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('mzgtbancoautore...')
+#3 C:\xampp\htdocs\sirep-2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\sirep-2\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/sirep-2/mzgtbancoautores/sirep/images/banner.png
+HTTP_REFERER=http://localhost/sirep-2/mzgtbancoautores/362.html
+---
+2019/03/28 17:11:20 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "sirep/images/banner.png" in C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sirep/images/ba...')
+#1 C:\xampp\htdocs\sirep-2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sirep-2\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep-2/sirep/images/banner.png
+HTTP_REFERER=http://localhost/sirep-2/
+---
+2019/03/28 20:48:17 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "sirep/images/banner.png" in C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sirep/images/ba...')
+#1 C:\xampp\htdocs\sirep-2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sirep-2\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep-2/sirep/images/banner.png
+HTTP_REFERER=http://localhost/sirep-2/
+---
+2019/03/28 20:48:30 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "sirep" solicitada. in C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php(270): CController->missingAction('sirep')
+#1 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(282): CController->run('sirep')
+#2 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('cruge/ui/sirep/...')
+#3 C:\xampp\htdocs\sirep-2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\sirep-2\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/sirep-2/cruge/ui/sirep/images/banner.png
+HTTP_REFERER=http://localhost/sirep-2/cruge/ui/login.html
+---
+2019/03/28 20:48:59 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "sirep/images/banner.png" in C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sirep/images/ba...')
+#1 C:\xampp\htdocs\sirep-2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sirep-2\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep-2/sirep/images/banner.png
+HTTP_REFERER=http://localhost/sirep-2/
+---
+2019/03/28 20:56:48 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\sirep-2\protected\controllers\ReportesController.php:46)
+Stack trace:
+#0 C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php(286): ReportesController->runAction()
+#1 C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php(265): ReportesController->runActionWithFilters()
+#2 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(282): ReportesController->run()
+#3 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\sirep-2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\sirep-2\index.php(15): CWebApplication->run()
+REQUEST_URI=/sirep-2/reportes/listarPublicaciones.html
+2019/03/28 20:56:48 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "sirep" solicitada. in C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php(270): CController->missingAction('sirep')
+#1 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(282): CController->run('sirep')
+#2 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('reportes/sirep/...')
+#3 C:\xampp\htdocs\sirep-2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\sirep-2\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/sirep-2/reportes/sirep/images/banner.png
+HTTP_REFERER=http://localhost/sirep-2/reportes/listarPublicaciones.html
+---
+2019/03/28 20:57:38 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "sirep" solicitada. in C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php(270): CController->missingAction('sirep')
+#1 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(282): CController->run('sirep')
+#2 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('mzgtpublicacion...')
+#3 C:\xampp\htdocs\sirep-2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\sirep-2\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/sirep-2/mzgtpublicaciones/sirep/images/banner.png
+HTTP_REFERER=http://localhost/sirep-2/mzgtpublicaciones/create.html
+=======
 2019/03/27 21:47:11 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "sirep" solicitada. in C:\xampp2\htdocs\sirep\yii\framework\web\CController.php:486
 Stack trace:
 #0 C:\xampp2\htdocs\sirep\yii\framework\web\CController.php(270): CController->missingAction('sirep')
@@ -11274,6 +11355,65 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/sirep-1/sirep/images/banner.png
 HTTP_REFERER=http://localhost/sirep-1/
+>>>>>>> 463d4caf65dd75b0aedf47a2a623061b26e1628e
+---
+2019/04/11 18:03:15 [error] [exception.CException] CException: La propiedad "Mzgtlibros"."MZGTLIBROS_ENLACE" no se encuentra definida. in C:\xampp\htdocs\sirep-2\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\sirep-2\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('MZGTLIBROS_ENLA...')
+#1 C:\xampp\htdocs\sirep-2\yii\framework\web\helpers\CHtml.php(2747): CActiveRecord->__get('MZGTLIBROS_ENLA...')
+#2 C:\xampp\htdocs\sirep-2\yii\framework\web\helpers\CHtml.php(2470): CHtml::resolveValue(Object(Mzgtlibros), 'MZGTLIBROS_ENLA...')
+#3 C:\xampp\htdocs\sirep-2\yii\framework\web\helpers\CHtml.php(1540): CHtml::activeInputField('text', Object(Mzgtlibros), 'MZGTLIBROS_ENLA...', Array)
+#4 C:\xampp\htdocs\sirep-2\yii\framework\web\widgets\CActiveForm.php(792): CHtml::activeTextField(Object(Mzgtlibros), 'MZGTLIBROS_ENLA...', Array)
+#5 C:\xampp\htdocs\sirep-2\protected\views\mzgtlibros\_form.php(73): CActiveForm->textField(Object(Mzgtlibros), 'MZGTLIBROS_ENLA...', Array)
+#6 C:\xampp\htdocs\sirep-2\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\sirep-2\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\sirep-2\protected\views\mzgtlibros\create.php(20): CController->renderPartial('_form', Array)
+#10 C:\xampp\htdocs\sirep-2\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\sirep-2\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#12 C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#13 C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php(785): CController->renderPartial('create', Array, true)
+#14 C:\xampp\htdocs\sirep-2\protected\controllers\MzgtlibrosController.php(30): CController->render('create', Array)
+#15 C:\xampp\htdocs\sirep-2\yii\framework\web\actions\CInlineAction.php(49): MzgtlibrosController->actionCreate()
+#16 C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#20 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('mzgtlibros/crea...')
+#21 C:\xampp\htdocs\sirep-2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\sirep-2\index.php(15): CApplication->run()
+#23 {main}
+REQUEST_URI=/sirep-2/mzgtlibros/create.html
+HTTP_REFERER=http://localhost/sirep-2/
+---
+2019/04/11 18:03:39 [error] [exception.CException] CException: La propiedad "Mzgtlibros"."MZGTLIBROS_ENLACE" no se encuentra definida. in C:\xampp\htdocs\sirep-2\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\sirep-2\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('MZGTLIBROS_ENLA...')
+#1 C:\xampp\htdocs\sirep-2\yii\framework\web\helpers\CHtml.php(2747): CActiveRecord->__get('MZGTLIBROS_ENLA...')
+#2 C:\xampp\htdocs\sirep-2\yii\framework\web\helpers\CHtml.php(2470): CHtml::resolveValue(Object(Mzgtlibros), 'MZGTLIBROS_ENLA...')
+#3 C:\xampp\htdocs\sirep-2\yii\framework\web\helpers\CHtml.php(1540): CHtml::activeInputField('text', Object(Mzgtlibros), 'MZGTLIBROS_ENLA...', Array)
+#4 C:\xampp\htdocs\sirep-2\yii\framework\web\widgets\CActiveForm.php(792): CHtml::activeTextField(Object(Mzgtlibros), 'MZGTLIBROS_ENLA...', Array)
+#5 C:\xampp\htdocs\sirep-2\protected\views\mzgtlibros\_form.php(73): CActiveForm->textField(Object(Mzgtlibros), 'MZGTLIBROS_ENLA...', Array)
+#6 C:\xampp\htdocs\sirep-2\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\sirep-2\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\sirep-2\protected\views\mzgtlibros\create.php(20): CController->renderPartial('_form', Array)
+#10 C:\xampp\htdocs\sirep-2\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\sirep-2\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#12 C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#13 C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php(785): CController->renderPartial('create', Array, true)
+#14 C:\xampp\htdocs\sirep-2\protected\controllers\MzgtlibrosController.php(30): CController->render('create', Array)
+#15 C:\xampp\htdocs\sirep-2\yii\framework\web\actions\CInlineAction.php(49): MzgtlibrosController->actionCreate()
+#16 C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#20 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('mzgtlibros/crea...')
+#21 C:\xampp\htdocs\sirep-2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\sirep-2\index.php(15): CApplication->run()
+#23 {main}
+REQUEST_URI=/sirep-2/mzgtlibros/create.html
+HTTP_REFERER=http://localhost/sirep-2/site/index.html
 ---
 <<<<<<< HEAD
 <<<<<<< HEAD
