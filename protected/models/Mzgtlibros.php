@@ -39,6 +39,9 @@ class Mzgtlibros extends BaseMzgtlibros
 			'MZGTLIBROS_MESPUBLICACION' => Yii::t('app', 'Mes de publicación'),
 			'MZGTLIBROS_ANIOPUBLICACION' => Yii::t('app', 'Año de publicación'),
 			'MZGTLIBROS_PAGINASCAPITULO' => Yii::t('app', 'Páginas del capítulo'),
+			//*-----------*//
+			'MZGTLIBROS_ENLACE' => Yii::t('app', 'Enlace'),
+			//*-----------*//
 			'mzgtbancoautores' => null,
 			'fK7MZGTLIBROSINVMZGTTIPOSLIBROSPK' => null,
 			'fK1MZGTLIBROSINVMZGTINSTITUCIONESPK' => null,
@@ -56,6 +59,10 @@ class Mzgtlibros extends BaseMzgtlibros
                         //'length', 'max'=>4, 'min'=>4
 			array('MZGTLIBROS_ANIO, MZGTLIBROS_ANIOPUBLICACION', 'length', 'max'=>4, 'min'=>4),
 			array('MZGTLIBROS_VOLUMEN', 'length', 'max'=>200),
+			array('MZGTLIBROS_ENLACE', 'length', 'max'=>1000),
+                        //'url' | 'defaultScheme' => 'http'
+                        array('MZGTLIBROS_ENLACE', 'url', 'defaultScheme' => 'http'),
+                        //max length = 2000
 			array('MZGTLIBROS_NUMEROPAGINAS', 'length', 'max'=>150),
 			//'length', 'max'=>2, 'min'=>1
                         array('MZGTLIBROS_DIAPUBLICACION, MZGTLIBROS_MESPUBLICACION', 'length', 'max'=>2, 'min'=>1),
@@ -83,5 +90,10 @@ class Mzgtlibros extends BaseMzgtlibros
             if(($this->FK7_MZGTLIBROS_INV_MZGTTIPOSLIBROS_PK==2)&&(empty($this->MZGTLIBROS_NOMBRECAPITULO)))
                 $this->addError('MZGTLIBROS_NOMBRECAPITULO', 'Debe especificar el capítulo del libro.');
         }
-        
+	
+	public function validacionEnlace(){
+		if($this->FK7_MZGTLIBROS_INV_MZGTTIPOSLIBROS_PK==1)
+		    if(empty($this->MZGTLIBROS_ENLACE))
+			$this->addError('MZGTLIBROS_ENLACE', 'Debe especificar el enlace');
+	}
 }

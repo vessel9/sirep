@@ -10,8 +10,11 @@
  * The followings are the available model relations:
  * @property Mzgtbancoautores[] $mzgtbancoautores
  */
-class baseMzgttiposautores extends CActiveRecord
-{
+abstract class BaseMzgttiposlibros extends GxActiveRecord {
+
+	public static function model($className=__CLASS__) {
+		return parent::model($className);
+	}
 	/**
 	 * @return string the associated database table name
 	 */
@@ -20,6 +23,13 @@ class baseMzgttiposautores extends CActiveRecord
 		return 'mzgttiposautores';
 	}
 
+	public static function label($n = 1) {
+		return Yii::t('app', 'Mzgttiposautores|Mzgttiposautores', $n);
+	}
+
+	public static function representingColumn() {
+		return 'MZGTTIPOSAUTORES_DESc';
+	}
 	/**
 	 * @return array validation rules for model attributes.
 	 */
@@ -92,8 +102,5 @@ class baseMzgttiposautores extends CActiveRecord
 	 * @param string $className active record class name.
 	 * @return baseMzgttiposautores the static model class
 	 */
-	public static function model($className=__CLASS__)
-	{
-		return parent::model($className);
-	}
+
 }
