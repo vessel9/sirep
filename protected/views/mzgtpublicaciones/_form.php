@@ -248,22 +248,22 @@
                 <h4 style="color: #C00; font-weight: bold; ">Seleccione en orden de autoría</h4>
 
                 <!-- Aquí va el grid de autores -->
-                <?php if (isset($model->PK_MZGTPUBLICACIONES))
-                        $publicacion = $model->PK_MZGTPUBLICACIONES;
-                       else
-                           $publicacion = 0;
-                       
-                    $this->widget('ext.widgets.multiselects.XMultiSelects',array(
-                        'leftTitle'=>'Actualmente en la publicación',
-                        'leftName'=>'Mzgtpublicaciones[mzgtbancoautores][]',
-                        'leftList'=> Mzgtbancoautores::model()->findBancoAutoresPorPublicacion($publicacion),
-                        'rightTitle'=>'Banco de autores',
-                        'rightName'=>'Mzgtbancoautores[mzgtpublicaciones][]',
-                        'rightList'=>Mzgtbancoautores::model()->findBancoAutoresPorNoPublicacion($publicacion),
-                        'size'=>20,
-                        'width'=>'300px',
-                    ));
-                ?>
+				<?php if (isset($model->PK_MZGTPUBLICACIONES))
+					$publicacion = $model->PK_MZGTPUBLICACIONES;
+				else
+					$publicacion = 0;
+				
+				$this->widget('ext.widgets.multiselects.XMultiSelects',array(
+					'leftTitle'=>'Actualmente en la publicación',
+					'leftName'=>'Mzgtpublicaciones[mzgtbancoautores][]',
+					'leftList'=> Mzgtbancoautores::model()->findBancoAutoresPorPublicacion($publicacion),
+					'rightTitle'=>'Banco de autores',
+					'rightName'=>'Mzgtbancoautores[mzgtpublicaciones][]',
+					'rightList'=>Mzgtbancoautores::model()->findBancoAutoresPorNoPublicacion($publicacion),
+					'size'=>20,
+					'width'=>'300px',
+				));
+				?>
                 
             </details>
         

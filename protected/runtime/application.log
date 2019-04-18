@@ -13291,3 +13291,534 @@ Stack trace:
 REQUEST_URI=/sirep/images/banner.jpg
 HTTP_REFERER=http://localhost/sirep/mzgtlibros/create.html
 ---
+2019/04/16 22:14:12 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/banner.jpg" in C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/banner.j...')
+#1 C:\xampp\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sirep\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep/images/banner.jpg
+HTTP_REFERER=http://localhost/sirep/mzgtlibros/create.html
+---
+2019/04/16 22:25:54 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/banner.jpg" in C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/banner.j...')
+#1 C:\xampp\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sirep\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep/images/banner.jpg
+HTTP_REFERER=http://localhost/sirep/
+---
+2019/04/16 22:30:39 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/banner.jpg" in C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/banner.j...')
+#1 C:\xampp\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sirep\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep/images/banner.jpg
+HTTP_REFERER=http://localhost/sirep/cruge/ui/login.html
+---
+2019/04/16 22:44:09 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/banner.jpg" in C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/banner.j...')
+#1 C:\xampp\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sirep\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep/images/banner.jpg
+HTTP_REFERER=http://localhost/sirep/
+---
+2019/04/16 22:44:39 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/banner.jpg" in C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/banner.j...')
+#1 C:\xampp\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sirep\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep/images/banner.jpg
+HTTP_REFERER=http://localhost/sirep/mzgtlibros/create.html
+---
+2019/04/16 22:44:51 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/banner.jpg" in C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/banner.j...')
+#1 C:\xampp\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sirep\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep/images/banner.jpg
+HTTP_REFERER=http://localhost/sirep/mzgtpublicaciones/create.html
+---
+2019/04/17 18:06:32 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/banner.jpg" in C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/banner.j...')
+#1 C:\xampp\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sirep\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep/images/banner.jpg
+HTTP_REFERER=http://localhost/sirep/
+---
+2019/04/17 18:06:48 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/banner.jpg" in C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/banner.j...')
+#1 C:\xampp\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sirep\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep/images/banner.jpg
+HTTP_REFERER=http://localhost/sirep/cruge/ui/login.html
+---
+2019/04/17 18:07:04 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/banner.jpg" in C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/banner.j...')
+#1 C:\xampp\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sirep\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep/images/banner.jpg
+HTTP_REFERER=http://localhost/sirep/
+---
+2019/04/17 18:08:51 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/banner.jpg" in C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/banner.j...')
+#1 C:\xampp\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sirep\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep/images/banner.jpg
+HTTP_REFERER=http://localhost/sirep/mzgteventos/create.html
+---
+2019/04/17 18:12:16 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/banner.jpg" in C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/banner.j...')
+#1 C:\xampp\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sirep\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep/images/banner.jpg
+HTTP_REFERER=http://localhost/sirep/mzgtlibros/create.html
+---
+2019/04/17 18:12:47 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/banner.jpg" in C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/banner.j...')
+#1 C:\xampp\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sirep\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep/images/banner.jpg
+HTTP_REFERER=http://localhost/sirep/mzgtpublicaciones/create.html
+---
+2019/04/17 18:13:00 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/banner.jpg" in C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/banner.j...')
+#1 C:\xampp\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sirep\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep/images/banner.jpg
+HTTP_REFERER=http://localhost/sirep/mzgtpublicaciones/create.html
+---
+2019/04/17 18:52:12 [error] [exception.ParseError] ParseError: syntax error, unexpected '}', expecting end of file in C:\xampp\htdocs\sirep\protected\models\Mzgtbancoautores.php:120
+Stack trace:
+#0 [internal function]: YiiBase::autoload('Mzgtbancoautore...')
+#1 C:\xampp\htdocs\sirep\protected\views\mzgtpublicaciones\_form.php(259): spl_autoload_call('Mzgtbancoautore...')
+#2 C:\xampp\htdocs\sirep\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sirep\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\sirep\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\sirep\protected\views\mzgtpublicaciones\create.php(21): CController->renderPartial('_form', Array)
+#6 C:\xampp\htdocs\sirep\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\sirep\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\sirep\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\sirep\yii\framework\web\CController.php(785): CController->renderPartial('create', Array, true)
+#10 C:\xampp\htdocs\sirep\protected\controllers\MzgtpublicacionesController.php(43): CController->render('create', Array)
+#11 C:\xampp\htdocs\sirep\yii\framework\web\actions\CInlineAction.php(49): MzgtpublicacionesController->actionCreate()
+#12 C:\xampp\htdocs\sirep\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\sirep\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\xampp\htdocs\sirep\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#16 C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('mzgtpublicacion...')
+#17 C:\xampp\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\sirep\index.php(15): CApplication->run()
+#19 {main}
+REQUEST_URI=/sirep/mzgtpublicaciones/create.html
+HTTP_REFERER=http://localhost/sirep/mzgtpublicaciones/create.html
+---
+2019/04/17 18:52:13 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/banner.jpg" in C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/banner.j...')
+#1 C:\xampp\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sirep\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep/images/banner.jpg
+HTTP_REFERER=http://localhost/sirep/mzgtpublicaciones/create.html
+---
+2019/04/17 18:54:00 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/banner.jpg" in C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/banner.j...')
+#1 C:\xampp\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sirep\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep/images/banner.jpg
+HTTP_REFERER=http://localhost/sirep/mzgtpublicaciones/create.html
+---
+2019/04/17 18:58:59 [error] [system.db.CDbCommand] CDbCommand::fetchAll() falló: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'mzgtautores.PK_MZGTLIBROS' in 'where clause'. La sentencia SQL ejecutada fue: SELECT t.PK_MZGTBANCOAUTORES, CONCAT(MZGTBANCOAUTORES_APELLIDO_PATERNO,' ',MZGTBANCOAUTORES_APELLIDO_MATERNO,' ',MZGTBANCOAUTORES_PRIMER_NOMBRE,' ',MZGTBANCOAUTORES_SEGUNDO_NOMBRE) as MZGTBANCOAUTORES_APELLIDO_PATERNO FROM `mzgtbancoautores` `t` JOIN mzgtautores ON mzgtautores.PK_MZGTBANCOAUTORES = t.PK_MZGTBANCOAUTORES WHERE mzgtautores.PK_MZGTLIBROS=0 ORDER BY MZGTBANCOAUTORES_APELLIDO_PATERNO.
+2019/04/17 18:58:59 [error] [exception.CDbException] CDbException: CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'mzgtautores.PK_MZGTLIBROS' in 'where clause' in C:\xampp\htdocs\sirep\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\sirep\yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\sirep\yii\framework\db\ar\CActiveRecord.php(1359): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\sirep\yii\framework\db\ar\CActiveRecord.php(1478): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\xampp\htdocs\sirep\protected\models\Mzgtbancoautores.php(102): CActiveRecord->findAll(Array)
+#4 C:\xampp\htdocs\sirep\protected\views\mzgtlibros\_form.php(195): Mzgtbancoautores->findBancoAutoresPorLibro(0)
+#5 C:\xampp\htdocs\sirep\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\sirep\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\sirep\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\sirep\protected\views\mzgtlibros\create.php(20): CController->renderPartial('_form', Array)
+#9 C:\xampp\htdocs\sirep\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\sirep\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#11 C:\xampp\htdocs\sirep\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#12 C:\xampp\htdocs\sirep\yii\framework\web\CController.php(785): CController->renderPartial('create', Array, true)
+#13 C:\xampp\htdocs\sirep\protected\controllers\MzgtlibrosController.php(30): CController->render('create', Array)
+#14 C:\xampp\htdocs\sirep\yii\framework\web\actions\CInlineAction.php(49): MzgtlibrosController->actionCreate()
+#15 C:\xampp\htdocs\sirep\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\sirep\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\sirep\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#19 C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('mzgtlibros/crea...')
+#20 C:\xampp\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\sirep\index.php(15): CApplication->run()
+#22 {main}
+REQUEST_URI=/sirep/mzgtlibros/create.html
+HTTP_REFERER=http://localhost/sirep/mzgtpublicaciones/create.html
+---
+2019/04/17 18:59:00 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/banner.jpg" in C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/banner.j...')
+#1 C:\xampp\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sirep\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep/images/banner.jpg
+HTTP_REFERER=http://localhost/sirep/mzgtlibros/create.html
+---
+2019/04/17 19:03:01 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/banner.jpg" in C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/banner.j...')
+#1 C:\xampp\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sirep\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep/images/banner.jpg
+HTTP_REFERER=http://localhost/sirep/mzgtlibros/create.html
+---
+2019/04/17 19:08:22 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\sirep\protected\controllers\ReportesController.php:46)
+Stack trace:
+#0 C:\xampp\htdocs\sirep\yii\framework\web\CController.php(286): ReportesController->runAction()
+#1 C:\xampp\htdocs\sirep\yii\framework\web\CController.php(265): ReportesController->runActionWithFilters()
+#2 C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php(282): ReportesController->run()
+#3 C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\sirep\index.php(15): CWebApplication->run()
+REQUEST_URI=/sirep/reportes/listarPublicaciones.html
+2019/04/17 19:08:23 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/banner.jpg" in C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/banner.j...')
+#1 C:\xampp\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sirep\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep/images/banner.jpg
+HTTP_REFERER=http://localhost/sirep/reportes/listarPublicaciones.html
+---
+2019/04/17 19:08:27 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/banner.jpg" in C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/banner.j...')
+#1 C:\xampp\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sirep\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep/images/banner.jpg
+HTTP_REFERER=http://localhost/sirep/mzgtlibros/create.html
+---
+2019/04/17 19:25:42 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/banner.jpg" in C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/banner.j...')
+#1 C:\xampp\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sirep\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep/images/banner.jpg
+HTTP_REFERER=http://localhost/sirep/mzgtlibros/create.html
+---
+2019/04/17 19:43:20 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\sirep\protected\controllers\ReportesController.php:46)
+Stack trace:
+#0 C:\xampp\htdocs\sirep\yii\framework\web\CController.php(286): ReportesController->runAction()
+#1 C:\xampp\htdocs\sirep\yii\framework\web\CController.php(265): ReportesController->runActionWithFilters()
+#2 C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php(282): ReportesController->run()
+#3 C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\sirep\index.php(15): CWebApplication->run()
+REQUEST_URI=/sirep/reportes/listarPublicaciones.html
+2019/04/17 19:43:21 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/banner.jpg" in C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/banner.j...')
+#1 C:\xampp\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sirep\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep/images/banner.jpg
+HTTP_REFERER=http://localhost/sirep/reportes/listarPublicaciones.html
+---
+2019/04/17 19:45:52 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\sirep\protected\controllers\ReportesController.php:46)
+Stack trace:
+#0 C:\xampp\htdocs\sirep\yii\framework\web\CController.php(286): ReportesController->runAction()
+#1 C:\xampp\htdocs\sirep\yii\framework\web\CController.php(265): ReportesController->runActionWithFilters()
+#2 C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php(282): ReportesController->run()
+#3 C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\sirep\index.php(15): CWebApplication->run()
+REQUEST_URI=/sirep/reportes/listarPublicaciones.html
+2019/04/17 19:45:52 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/banner.jpg" in C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/banner.j...')
+#1 C:\xampp\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sirep\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep/images/banner.jpg
+HTTP_REFERER=http://localhost/sirep/reportes/listarPublicaciones.html
+---
+2019/04/17 19:47:02 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/banner.jpg" in C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/banner.j...')
+#1 C:\xampp\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sirep\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep/images/banner.jpg
+HTTP_REFERER=http://localhost/sirep/mzgtlibros/create.html
+---
+2019/04/17 19:47:07 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/banner.jpg" in C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/banner.j...')
+#1 C:\xampp\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sirep\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep/images/banner.jpg
+HTTP_REFERER=http://localhost/sirep/mzgteventos/create.html
+---
+2019/04/17 19:47:18 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/banner.jpg" in C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/banner.j...')
+#1 C:\xampp\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sirep\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep/images/banner.jpg
+HTTP_REFERER=http://localhost/sirep/mzgtlibros/create.html
+---
+2019/04/18 17:11:22 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/banner.jpg" in C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/banner.j...')
+#1 C:\xampp\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sirep\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep/images/banner.jpg
+HTTP_REFERER=http://localhost/sirep/mzgtlibros/create.html
+---
+2019/04/18 17:11:38 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/banner.jpg" in C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/banner.j...')
+#1 C:\xampp\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sirep\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep/images/banner.jpg
+HTTP_REFERER=http://localhost/sirep/cruge/ui/login.html
+---
+2019/04/18 17:11:50 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/banner.jpg" in C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/banner.j...')
+#1 C:\xampp\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sirep\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep/images/banner.jpg
+HTTP_REFERER=http://localhost/sirep/
+---
+2019/04/18 17:18:11 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/banner.jpg" in C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/banner.j...')
+#1 C:\xampp\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sirep\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep/images/banner.jpg
+HTTP_REFERER=http://localhost/sirep/mzgtpublicaciones/create.html
+---
+2019/04/18 17:21:54 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/banner.jpg" in C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/banner.j...')
+#1 C:\xampp\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sirep\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep/images/banner.jpg
+HTTP_REFERER=http://localhost/sirep/mzgtlibros/create.html
+---
+2019/04/18 17:22:11 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/banner.jpg" in C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/banner.j...')
+#1 C:\xampp\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sirep\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep/images/banner.jpg
+HTTP_REFERER=http://localhost/sirep/mzgtpublicaciones/create.html
+---
+2019/04/18 17:22:26 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/banner.jpg" in C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/banner.j...')
+#1 C:\xampp\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sirep\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep/images/banner.jpg
+HTTP_REFERER=http://localhost/sirep/mzgtlibros/create.html
+---
+2019/04/18 17:29:52 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/banner.jpg" in C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/banner.j...')
+#1 C:\xampp\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sirep\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep/images/banner.jpg
+HTTP_REFERER=http://localhost/sirep/mzgtpublicaciones/create.html
+---
+2019/04/18 17:30:10 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/banner.jpg" in C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/banner.j...')
+#1 C:\xampp\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sirep\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep/images/banner.jpg
+HTTP_REFERER=http://localhost/sirep/mzgtlibros/create.html
+---
+2019/04/18 17:37:19 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/banner.jpg" in C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/banner.j...')
+#1 C:\xampp\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sirep\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep/images/banner.jpg
+HTTP_REFERER=http://localhost/sirep/mzgtpublicaciones/create.html
+---
+2019/04/18 17:37:36 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/banner.jpg" in C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/banner.j...')
+#1 C:\xampp\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sirep\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep/images/banner.jpg
+HTTP_REFERER=http://localhost/sirep/mzgtlibros/create.html
+---
+2019/04/18 17:38:03 [error] [php] Undefined index: mzgtbancoautores (C:\xampp\htdocs\sirep\protected\controllers\MzgtlibrosController.php:19)
+Stack trace:
+#0 C:\xampp\htdocs\sirep\yii\framework\web\CController.php(286): MzgtlibrosController->runAction()
+#1 C:\xampp\htdocs\sirep\yii\framework\web\CController.php(265): MzgtlibrosController->runActionWithFilters()
+#2 C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php(282): MzgtlibrosController->run()
+#3 C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\sirep\index.php(15): CWebApplication->run()
+REQUEST_URI=/sirep/mzgtlibros/create.html
+2019/04/18 17:38:04 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/banner.jpg" in C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/banner.j...')
+#1 C:\xampp\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sirep\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep/images/banner.jpg
+HTTP_REFERER=http://localhost/sirep/mzgtlibros/create.html
+---
+2019/04/18 17:38:09 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/banner.jpg" in C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/banner.j...')
+#1 C:\xampp\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sirep\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep/images/banner.jpg
+HTTP_REFERER=http://localhost/sirep/mzgtlibros/create.html
+---
+2019/04/18 17:38:21 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/banner.jpg" in C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/banner.j...')
+#1 C:\xampp\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sirep\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep/images/banner.jpg
+HTTP_REFERER=http://localhost/sirep/mzgtlibros/69.html
+---
+2019/04/18 17:38:53 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/banner.jpg" in C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/banner.j...')
+#1 C:\xampp\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sirep\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep/images/banner.jpg
+HTTP_REFERER=http://localhost/sirep/mzgtlibros/create.html
+---
+2019/04/18 17:39:05 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/banner.jpg" in C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/banner.j...')
+#1 C:\xampp\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sirep\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep/images/banner.jpg
+HTTP_REFERER=http://localhost/sirep/mzgtlibros/70.html
+---
+2019/04/18 17:42:39 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/banner.jpg" in C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/banner.j...')
+#1 C:\xampp\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sirep\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep/images/banner.jpg
+HTTP_REFERER=http://localhost/sirep/mzgtlibros/index.html
+---
+2019/04/18 17:42:58 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/banner.jpg" in C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/banner.j...')
+#1 C:\xampp\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sirep\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep/images/banner.jpg
+HTTP_REFERER=http://localhost/sirep/mzgtlibros/6.html
+---
+2019/04/18 17:43:08 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/banner.jpg" in C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/banner.j...')
+#1 C:\xampp\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sirep\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep/images/banner.jpg
+HTTP_REFERER=http://localhost/sirep/mzgtlibros/index.html
+---
+2019/04/18 17:43:19 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/banner.jpg" in C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/banner.j...')
+#1 C:\xampp\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sirep\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep/images/banner.jpg
+HTTP_REFERER=http://localhost/sirep/mzgtlibros/70.html
+---
+2019/04/18 17:43:25 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/banner.jpg" in C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/banner.j...')
+#1 C:\xampp\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sirep\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep/images/banner.jpg
+HTTP_REFERER=http://localhost/sirep/mzgtlibros/index.html
+---
+2019/04/18 17:43:33 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/banner.jpg" in C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/banner.j...')
+#1 C:\xampp\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sirep\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep/images/banner.jpg
+HTTP_REFERER=http://localhost/sirep/mzgtlibros/70.html
+---
+2019/04/18 17:43:44 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/banner.jpg" in C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/banner.j...')
+#1 C:\xampp\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sirep\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep/images/banner.jpg
+HTTP_REFERER=http://localhost/sirep/mzgtlibros/admin.html
+---
+2019/04/18 17:44:15 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/banner.jpg" in C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/banner.j...')
+#1 C:\xampp\htdocs\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sirep\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep/images/banner.jpg
+HTTP_REFERER=http://localhost/sirep/site/index.html
+---
