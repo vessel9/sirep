@@ -13974,3 +13974,12 @@ REQUEST_URI=/sirep/images/banner.jpg
 HTTP_REFERER=http://localhost/sirep/site/index.html
 >>>>>>> 3e32d562468fb858388f645973d57ef37144e73c
 ---
+2019/04/24 19:33:17 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\sirep-2\protected\controllers\ReportesController.php:46)
+Stack trace:
+#0 C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php(286): ReportesController->runAction()
+#1 C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php(265): ReportesController->runActionWithFilters()
+#2 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(282): ReportesController->run()
+#3 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\sirep-2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\sirep-2\index.php(15): CWebApplication->run()
+REQUEST_URI=/sirep-2/reportes/listarPublicaciones.html
