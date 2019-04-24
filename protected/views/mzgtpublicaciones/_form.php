@@ -75,7 +75,7 @@
             <fieldset id="fs_tipopublicacion">
                 <div class="row" id="div_titulomemoriaproceeding">
 		<?php //echo $form->labelEx($model,'MZGTPUBLICACIONES_TITULOMEMORIAPROCEEDING'); ?>
-                <?php echo '<label for="Mzgtpublicaciones_MZGTPUBLICACIONES_TITULOMEMORIAPROCEEDING">Título de memoria/proceeding <span id="req_titulomemoriaproceeding" class="required">*</span></label>'; ?>
+                <?php echo '<label for="Mzgtpublicaciones_MZGTPUBLICACIONES_TITULOMEMORIAPROCEEDING">T}ítulo de memoria/proceeding <span id="req_titulomemoriaproceeding" class="required">*</span></label>'; ?>
 		<?php echo $form->textField($model, 'MZGTPUBLICACIONES_TITULOMEMORIAPROCEEDING', array('maxlength' => 200, 'size'=>110)); ?>
 		<?php echo $form->error($model,'MZGTPUBLICACIONES_TITULOMEMORIAPROCEEDING'); ?>
 		</div><!-- row -->
