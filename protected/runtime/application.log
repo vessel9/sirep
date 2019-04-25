@@ -13167,3 +13167,9 @@ Stack trace:
 REQUEST_URI=/sirep-1/reportes/listarEventos.html
 HTTP_REFERER=http://localhost/sirep-1/reportes/listarPublicaciones.html
 ---
+2019/04/24 19:36:41 [error] [application] UiController
+CrugeUser->validate es false
+<div class="errorSummary"><p>Por favor corrija los siguientes errores de ingreso:</p>
+<ul>
+<li>clave invalida</li>
+</ul></div>
