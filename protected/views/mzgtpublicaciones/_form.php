@@ -75,7 +75,7 @@
             <fieldset id="fs_tipopublicacion">
                 <div class="row" id="div_titulomemoriaproceeding">
 		<?php //echo $form->labelEx($model,'MZGTPUBLICACIONES_TITULOMEMORIAPROCEEDING'); ?>
-                <?php echo '<label for="Mzgtpublicaciones_MZGTPUBLICACIONES_TITULOMEMORIAPROCEEDING">Título de memoria/proceeding <span id="req_titulomemoriaproceeding" class="required">*</span></label>'; ?>
+                <?php echo '<label for="Mzgtpublicaciones_MZGTPUBLICACIONES_TITULOMEMORIAPROCEEDING">T}ítulo de memoria/proceeding <span id="req_titulomemoriaproceeding" class="required">*</span></label>'; ?>
 		<?php echo $form->textField($model, 'MZGTPUBLICACIONES_TITULOMEMORIAPROCEEDING', array('maxlength' => 200, 'size'=>110)); ?>
 		<?php echo $form->error($model,'MZGTPUBLICACIONES_TITULOMEMORIAPROCEEDING'); ?>
 		</div><!-- row -->
@@ -248,22 +248,22 @@
                 <h4 style="color: #C00; font-weight: bold; ">Seleccione en orden de autoría</h4>
 
                 <!-- Aquí va el grid de autores -->
-				<?php if (isset($model->PK_MZGTPUBLICACIONES))
-					$publicacion = $model->PK_MZGTPUBLICACIONES;
-				else
-					$publicacion = 0;
-				
-				$this->widget('ext.widgets.multiselects.XMultiSelects',array(
-					'leftTitle'=>'Actualmente en la publicación',
-					'leftName'=>'Mzgtpublicaciones[mzgtbancoautores][]',
-					'leftList'=> Mzgtbancoautores::model()->findBancoAutoresPorPublicacion($publicacion),
-					'rightTitle'=>'Banco de autores',
-					'rightName'=>'Mzgtbancoautores[mzgtpublicaciones][]',
-					'rightList'=>Mzgtbancoautores::model()->findBancoAutoresPorNoPublicacion($publicacion),
-					'size'=>20,
-					'width'=>'300px',
-				));
-				?>
+                <?php if (isset($model->PK_MZGTPUBLICACIONES))
+                        $publicacion = $model->PK_MZGTPUBLICACIONES;
+                       else
+                           $publicacion = 0;
+                       
+                    $this->widget('ext.widgets.multiselects.XMultiSelects',array(
+                        'leftTitle'=>'Actualmente en la publicación',
+                        'leftName'=>'Mzgtpublicaciones[mzgtbancoautores][]',
+                        'leftList'=> Mzgtbancoautores::model()->findBancoAutoresPorPublicacion($publicacion),
+                        'rightTitle'=>'Banco de autores',
+                        'rightName'=>'Mzgtbancoautores[mzgtpublicaciones][]',
+                        'rightList'=>Mzgtbancoautores::model()->findBancoAutoresPorNoPublicacion($publicacion),
+                        'size'=>20,
+                        'width'=>'300px',
+                    ));
+                ?>
                 
             </details>
         
