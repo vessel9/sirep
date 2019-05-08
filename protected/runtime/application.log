@@ -16136,6 +16136,7 @@ HTTP_REFERER=http://localhost/sirep/mzgtpublicaciones/create.html
 #5 C:\xampp\htdocs\sirep-2\index.php(15): CWebApplication->run()
 REQUEST_URI=/sirep-2/reportes/listarPublicaciones.html
 <<<<<<< HEAD
+<<<<<<< HEAD
 2019/05/08 17:58:36 [error] [exception.CException] CException: La propiedad "Mzgteventos"."fK1_MZGTEVENTOS_INV_MZGTINSTITUCIONES_PK" no se encuentra definida. in C:\xampp2\htdocs\sirep\sirep\yii\framework\base\CComponent.php:130
 Stack trace:
 #0 C:\xampp2\htdocs\sirep\sirep\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('fK1_MZGTEVENTOS...')
@@ -16565,6 +16566,9 @@ Stack trace:
 REQUEST_URI=/sirep/sirep/images/banner.jpg
 HTTP_REFERER=http://localhost/sirep/sirep/mzgteventos/create.html
 ---
+=======
+>>>>>>> 24da58b7c144b037b8d512f272ea9d8397cb9578
+>>>>>>> f33283dd802a873a914d80fd6db4799f41150f5a
 =======
 >>>>>>> 24da58b7c144b037b8d512f272ea9d8397cb9578
 >>>>>>> f33283dd802a873a914d80fd6db4799f41150f5a
