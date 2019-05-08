@@ -13337,3 +13337,432 @@ Stack trace:
 #4 C:\xampp\htdocs\sirep-2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
 #5 C:\xampp\htdocs\sirep-2\index.php(15): CWebApplication->run()
 REQUEST_URI=/sirep-2/reportes/listarPublicaciones.html
+2019/05/08 17:58:36 [error] [exception.CException] CException: La propiedad "Mzgteventos"."fK1_MZGTEVENTOS_INV_MZGTINSTITUCIONES_PK" no se encuentra definida. in C:\xampp2\htdocs\sirep\sirep\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp2\htdocs\sirep\sirep\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('fK1_MZGTEVENTOS...')
+#1 C:\xampp2\htdocs\sirep\sirep\protected\controllers\ReportesController.php(23): CActiveRecord->__get('fK1_MZGTEVENTOS...')
+#2 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\actions\CInlineAction.php(49): ReportesController->actionListarEventos()
+#3 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CWebApplication.php(282): CController->run('listarEventos')
+#7 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('reportes/listar...')
+#8 C:\xampp2\htdocs\sirep\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\xampp2\htdocs\sirep\sirep\index.php(15): CApplication->run()
+#10 {main}
+REQUEST_URI=/sirep/sirep/reportes/listarEventos.html
+HTTP_REFERER=http://localhost/sirep/sirep/mzgteventos/create.html
+---
+2019/05/08 18:03:29 [error] [exception.CException] CException: La propiedad "Mzgteventos"."fK1_MZGTEVENTOS_INV_MZGTINSTITUCIONES_PK" no se encuentra definida. in C:\xampp2\htdocs\sirep\sirep\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp2\htdocs\sirep\sirep\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('fK1_MZGTEVENTOS...')
+#1 C:\xampp2\htdocs\sirep\sirep\protected\controllers\ReportesController.php(23): CActiveRecord->__get('fK1_MZGTEVENTOS...')
+#2 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\actions\CInlineAction.php(49): ReportesController->actionListarEventos()
+#3 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CWebApplication.php(282): CController->run('listarEventos')
+#7 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('reportes/listar...')
+#8 C:\xampp2\htdocs\sirep\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\xampp2\htdocs\sirep\sirep\index.php(15): CApplication->run()
+#10 {main}
+REQUEST_URI=/sirep/sirep/reportes/listarEventos.html
+HTTP_REFERER=http://localhost/sirep/sirep/mzgtbancoautores/admin.html
+---
+2019/05/08 18:03:31 [error] [exception.CException] CException: La propiedad "Mzgteventos"."fK1_MZGTEVENTOS_INV_MZGTINSTITUCIONES_PK" no se encuentra definida. in C:\xampp2\htdocs\sirep\sirep\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp2\htdocs\sirep\sirep\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('fK1_MZGTEVENTOS...')
+#1 C:\xampp2\htdocs\sirep\sirep\protected\controllers\ReportesController.php(107): CActiveRecord->__get('fK1_MZGTEVENTOS...')
+#2 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\actions\CInlineAction.php(49): ReportesController->actionListarEventosPorCarrera()
+#3 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CWebApplication.php(282): CController->run('listarEventosPo...')
+#7 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('reportes/listar...')
+#8 C:\xampp2\htdocs\sirep\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\xampp2\htdocs\sirep\sirep\index.php(15): CApplication->run()
+#10 {main}
+REQUEST_URI=/sirep/sirep/reportes/listarEventosPorCarrera.html
+HTTP_REFERER=http://localhost/sirep/sirep/reportes/listarEventos.html
+---
+2019/05/08 18:14:33 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/banner.jpg" in C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/banner.j...')
+#1 C:\xampp2\htdocs\sirep\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp2\htdocs\sirep\sirep\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep/sirep/images/banner.jpg
+HTTP_REFERER=http://localhost/sirep/sirep/site/index.html
+---
+2019/05/08 18:14:35 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/banner.jpg" in C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/banner.j...')
+#1 C:\xampp2\htdocs\sirep\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp2\htdocs\sirep\sirep\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep/sirep/images/banner.jpg
+HTTP_REFERER=http://localhost/sirep/sirep/site/index.html
+---
+2019/05/08 18:15:04 [error] [exception.CException] CException: La propiedad "Mzgteventos"."fK1_MZGTEVENTOS_INV_MZGTINSTITUCIONES_PK" no se encuentra definida. in C:\xampp2\htdocs\sirep\sirep\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp2\htdocs\sirep\sirep\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('fK1_MZGTEVENTOS...')
+#1 C:\xampp2\htdocs\sirep\sirep\protected\controllers\ReportesController.php(23): CActiveRecord->__get('fK1_MZGTEVENTOS...')
+#2 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\actions\CInlineAction.php(49): ReportesController->actionListarEventos()
+#3 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CWebApplication.php(282): CController->run('listarEventos')
+#7 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('reportes/listar...')
+#8 C:\xampp2\htdocs\sirep\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\xampp2\htdocs\sirep\sirep\index.php(15): CApplication->run()
+#10 {main}
+REQUEST_URI=/sirep/sirep/reportes/listarEventos.html
+HTTP_REFERER=http://localhost/sirep/sirep/mzgtbancoautores/create.html
+---
+2019/05/08 18:19:53 [error] [exception.Error] Error: Class '' not found in C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CWidgetFactory.php:147
+Stack trace:
+#0 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), '', Array)
+#1 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(181): CBaseController->createWidget('', Array)
+#2 C:\xampp2\htdocs\sirep\sirep\themes\classic\views\layouts\main.php(105): CBaseController->widget('', Array)
+#3 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(126): require('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp2\\htdoc...', Array, true)
+#5 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\xampp2\\htdoc...', Array, true)
+#6 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#7 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#8 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(215): COutputProcessor->run()
+#9 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(309): CBaseController->endWidget('CContentDecorat...')
+#10 C:\xampp2\htdocs\sirep\sirep\themes\classic\views\layouts\column1.php(6): CBaseController->endContent()
+#11 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(126): require('C:\\xampp2\\htdoc...')
+#12 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp2\\htdoc...', Array, true)
+#13 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CController.php(787): CBaseController->renderFile('C:\\xampp2\\htdoc...', Array, true)
+#14 C:\xampp2\htdocs\sirep\sirep\protected\controllers\SiteController.php(32): CController->render('index')
+#15 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#16 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#18 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#20 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#21 C:\xampp2\htdocs\sirep\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#22 C:\xampp2\htdocs\sirep\sirep\index.php(15): CApplication->run()
+#23 {main}
+REQUEST_URI=/sirep/sirep/site/index.html
+HTTP_REFERER=http://localhost/sirep/sirep/mzgteventos/create.html
+---
+2019/05/08 18:19:54 [error] [exception.Error] Error: Class '' not found in C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CWidgetFactory.php:147
+Stack trace:
+#0 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), '', Array)
+#1 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(181): CBaseController->createWidget('', Array)
+#2 C:\xampp2\htdocs\sirep\sirep\themes\classic\views\layouts\main.php(105): CBaseController->widget('', Array)
+#3 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(126): require('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp2\\htdoc...', Array, true)
+#5 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\xampp2\\htdoc...', Array, true)
+#6 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#7 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#8 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(215): COutputProcessor->run()
+#9 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(309): CBaseController->endWidget('CContentDecorat...')
+#10 C:\xampp2\htdocs\sirep\sirep\themes\classic\views\layouts\column1.php(6): CBaseController->endContent()
+#11 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(126): require('C:\\xampp2\\htdoc...')
+#12 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp2\\htdoc...', Array, true)
+#13 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CController.php(787): CBaseController->renderFile('C:\\xampp2\\htdoc...', Array, true)
+#14 C:\xampp2\htdocs\sirep\sirep\protected\controllers\SiteController.php(32): CController->render('index')
+#15 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#16 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#18 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#20 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#21 C:\xampp2\htdocs\sirep\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#22 C:\xampp2\htdocs\sirep\sirep\index.php(15): CApplication->run()
+#23 {main}
+REQUEST_URI=/sirep/sirep/site/index.html
+HTTP_REFERER=http://localhost/sirep/sirep/mzgteventos/create.html
+---
+2019/05/08 18:19:55 [error] [exception.Error] Error: Class '' not found in C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CWidgetFactory.php:147
+Stack trace:
+#0 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), '', Array)
+#1 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(181): CBaseController->createWidget('', Array)
+#2 C:\xampp2\htdocs\sirep\sirep\themes\classic\views\layouts\main.php(105): CBaseController->widget('', Array)
+#3 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(126): require('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp2\\htdoc...', Array, true)
+#5 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\xampp2\\htdoc...', Array, true)
+#6 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#7 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#8 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(215): COutputProcessor->run()
+#9 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(309): CBaseController->endWidget('CContentDecorat...')
+#10 C:\xampp2\htdocs\sirep\sirep\themes\classic\views\layouts\column1.php(6): CBaseController->endContent()
+#11 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(126): require('C:\\xampp2\\htdoc...')
+#12 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp2\\htdoc...', Array, true)
+#13 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CController.php(787): CBaseController->renderFile('C:\\xampp2\\htdoc...', Array, true)
+#14 C:\xampp2\htdocs\sirep\sirep\protected\controllers\SiteController.php(32): CController->render('index')
+#15 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#16 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#18 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#20 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#21 C:\xampp2\htdocs\sirep\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#22 C:\xampp2\htdocs\sirep\sirep\index.php(15): CApplication->run()
+#23 {main}
+REQUEST_URI=/sirep/sirep/site/index.html
+HTTP_REFERER=http://localhost/sirep/sirep/mzgteventos/create.html
+---
+2019/05/08 18:19:56 [error] [exception.Error] Error: Class '' not found in C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CWidgetFactory.php:147
+Stack trace:
+#0 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), '', Array)
+#1 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(181): CBaseController->createWidget('', Array)
+#2 C:\xampp2\htdocs\sirep\sirep\themes\classic\views\layouts\main.php(105): CBaseController->widget('', Array)
+#3 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(126): require('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp2\\htdoc...', Array, true)
+#5 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\xampp2\\htdoc...', Array, true)
+#6 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#7 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#8 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(215): COutputProcessor->run()
+#9 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(309): CBaseController->endWidget('CContentDecorat...')
+#10 C:\xampp2\htdocs\sirep\sirep\themes\classic\views\layouts\column1.php(6): CBaseController->endContent()
+#11 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(126): require('C:\\xampp2\\htdoc...')
+#12 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp2\\htdoc...', Array, true)
+#13 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CController.php(787): CBaseController->renderFile('C:\\xampp2\\htdoc...', Array, true)
+#14 C:\xampp2\htdocs\sirep\sirep\protected\controllers\SiteController.php(32): CController->render('index')
+#15 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#16 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#18 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#20 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#21 C:\xampp2\htdocs\sirep\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#22 C:\xampp2\htdocs\sirep\sirep\index.php(15): CApplication->run()
+#23 {main}
+REQUEST_URI=/sirep/sirep/site/index.html
+HTTP_REFERER=http://localhost/sirep/sirep/mzgteventos/create.html
+---
+2019/05/08 18:19:56 [error] [exception.Error] Error: Class '' not found in C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CWidgetFactory.php:147
+Stack trace:
+#0 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), '', Array)
+#1 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(181): CBaseController->createWidget('', Array)
+#2 C:\xampp2\htdocs\sirep\sirep\themes\classic\views\layouts\main.php(105): CBaseController->widget('', Array)
+#3 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(126): require('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp2\\htdoc...', Array, true)
+#5 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\xampp2\\htdoc...', Array, true)
+#6 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#7 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#8 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(215): COutputProcessor->run()
+#9 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(309): CBaseController->endWidget('CContentDecorat...')
+#10 C:\xampp2\htdocs\sirep\sirep\themes\classic\views\layouts\column1.php(6): CBaseController->endContent()
+#11 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(126): require('C:\\xampp2\\htdoc...')
+#12 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp2\\htdoc...', Array, true)
+#13 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CController.php(787): CBaseController->renderFile('C:\\xampp2\\htdoc...', Array, true)
+#14 C:\xampp2\htdocs\sirep\sirep\protected\controllers\SiteController.php(32): CController->render('index')
+#15 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#16 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#18 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#20 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#21 C:\xampp2\htdocs\sirep\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#22 C:\xampp2\htdocs\sirep\sirep\index.php(15): CApplication->run()
+#23 {main}
+REQUEST_URI=/sirep/sirep/site/index.html
+HTTP_REFERER=http://localhost/sirep/sirep/mzgteventos/create.html
+---
+2019/05/08 18:19:56 [error] [exception.Error] Error: Class '' not found in C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CWidgetFactory.php:147
+Stack trace:
+#0 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), '', Array)
+#1 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(181): CBaseController->createWidget('', Array)
+#2 C:\xampp2\htdocs\sirep\sirep\themes\classic\views\layouts\main.php(105): CBaseController->widget('', Array)
+#3 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(126): require('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp2\\htdoc...', Array, true)
+#5 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\xampp2\\htdoc...', Array, true)
+#6 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#7 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#8 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(215): COutputProcessor->run()
+#9 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(309): CBaseController->endWidget('CContentDecorat...')
+#10 C:\xampp2\htdocs\sirep\sirep\themes\classic\views\layouts\column1.php(6): CBaseController->endContent()
+#11 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(126): require('C:\\xampp2\\htdoc...')
+#12 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp2\\htdoc...', Array, true)
+#13 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CController.php(787): CBaseController->renderFile('C:\\xampp2\\htdoc...', Array, true)
+#14 C:\xampp2\htdocs\sirep\sirep\protected\controllers\SiteController.php(32): CController->render('index')
+#15 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#16 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#18 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#20 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#21 C:\xampp2\htdocs\sirep\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#22 C:\xampp2\htdocs\sirep\sirep\index.php(15): CApplication->run()
+#23 {main}
+REQUEST_URI=/sirep/sirep/site/index.html
+HTTP_REFERER=http://localhost/sirep/sirep/mzgteventos/create.html
+---
+2019/05/08 18:19:57 [error] [exception.Error] Error: Class '' not found in C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CWidgetFactory.php:147
+Stack trace:
+#0 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), '', Array)
+#1 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(181): CBaseController->createWidget('', Array)
+#2 C:\xampp2\htdocs\sirep\sirep\themes\classic\views\layouts\main.php(105): CBaseController->widget('', Array)
+#3 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(126): require('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp2\\htdoc...', Array, true)
+#5 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\xampp2\\htdoc...', Array, true)
+#6 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#7 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#8 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(215): COutputProcessor->run()
+#9 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(309): CBaseController->endWidget('CContentDecorat...')
+#10 C:\xampp2\htdocs\sirep\sirep\themes\classic\views\layouts\column1.php(6): CBaseController->endContent()
+#11 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(126): require('C:\\xampp2\\htdoc...')
+#12 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp2\\htdoc...', Array, true)
+#13 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CController.php(787): CBaseController->renderFile('C:\\xampp2\\htdoc...', Array, true)
+#14 C:\xampp2\htdocs\sirep\sirep\protected\controllers\SiteController.php(32): CController->render('index')
+#15 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#16 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#18 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#20 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#21 C:\xampp2\htdocs\sirep\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#22 C:\xampp2\htdocs\sirep\sirep\index.php(15): CApplication->run()
+#23 {main}
+REQUEST_URI=/sirep/sirep/site/index.html
+HTTP_REFERER=http://localhost/sirep/sirep/mzgteventos/create.html
+---
+2019/05/08 18:19:58 [error] [exception.Error] Error: Class '' not found in C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CWidgetFactory.php:147
+Stack trace:
+#0 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), '', Array)
+#1 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(181): CBaseController->createWidget('', Array)
+#2 C:\xampp2\htdocs\sirep\sirep\themes\classic\views\layouts\main.php(105): CBaseController->widget('', Array)
+#3 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(126): require('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp2\\htdoc...', Array, true)
+#5 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\xampp2\\htdoc...', Array, true)
+#6 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#7 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#8 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(215): COutputProcessor->run()
+#9 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(309): CBaseController->endWidget('CContentDecorat...')
+#10 C:\xampp2\htdocs\sirep\sirep\themes\classic\views\layouts\column1.php(6): CBaseController->endContent()
+#11 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(126): require('C:\\xampp2\\htdoc...')
+#12 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp2\\htdoc...', Array, true)
+#13 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CController.php(787): CBaseController->renderFile('C:\\xampp2\\htdoc...', Array, true)
+#14 C:\xampp2\htdocs\sirep\sirep\protected\controllers\SiteController.php(32): CController->render('index')
+#15 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#16 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#18 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#20 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#21 C:\xampp2\htdocs\sirep\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#22 C:\xampp2\htdocs\sirep\sirep\index.php(15): CApplication->run()
+#23 {main}
+REQUEST_URI=/sirep/sirep/site/index.html
+HTTP_REFERER=http://localhost/sirep/sirep/mzgteventos/create.html
+---
+2019/05/08 18:19:58 [error] [exception.Error] Error: Class '' not found in C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CWidgetFactory.php:147
+Stack trace:
+#0 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), '', Array)
+#1 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(181): CBaseController->createWidget('', Array)
+#2 C:\xampp2\htdocs\sirep\sirep\themes\classic\views\layouts\main.php(105): CBaseController->widget('', Array)
+#3 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(126): require('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp2\\htdoc...', Array, true)
+#5 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\xampp2\\htdoc...', Array, true)
+#6 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#7 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#8 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(215): COutputProcessor->run()
+#9 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(309): CBaseController->endWidget('CContentDecorat...')
+#10 C:\xampp2\htdocs\sirep\sirep\themes\classic\views\layouts\column1.php(6): CBaseController->endContent()
+#11 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(126): require('C:\\xampp2\\htdoc...')
+#12 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp2\\htdoc...', Array, true)
+#13 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CController.php(787): CBaseController->renderFile('C:\\xampp2\\htdoc...', Array, true)
+#14 C:\xampp2\htdocs\sirep\sirep\protected\controllers\SiteController.php(32): CController->render('index')
+#15 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#16 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#18 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#20 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#21 C:\xampp2\htdocs\sirep\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#22 C:\xampp2\htdocs\sirep\sirep\index.php(15): CApplication->run()
+#23 {main}
+REQUEST_URI=/sirep/sirep/site/index.html
+HTTP_REFERER=http://localhost/sirep/sirep/mzgteventos/create.html
+---
+2019/05/08 18:19:58 [error] [exception.Error] Error: Class '' not found in C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CWidgetFactory.php:147
+Stack trace:
+#0 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), '', Array)
+#1 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(181): CBaseController->createWidget('', Array)
+#2 C:\xampp2\htdocs\sirep\sirep\themes\classic\views\layouts\main.php(105): CBaseController->widget('', Array)
+#3 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(126): require('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp2\\htdoc...', Array, true)
+#5 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\xampp2\\htdoc...', Array, true)
+#6 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#7 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#8 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(215): COutputProcessor->run()
+#9 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(309): CBaseController->endWidget('CContentDecorat...')
+#10 C:\xampp2\htdocs\sirep\sirep\themes\classic\views\layouts\column1.php(6): CBaseController->endContent()
+#11 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(126): require('C:\\xampp2\\htdoc...')
+#12 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp2\\htdoc...', Array, true)
+#13 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CController.php(787): CBaseController->renderFile('C:\\xampp2\\htdoc...', Array, true)
+#14 C:\xampp2\htdocs\sirep\sirep\protected\controllers\SiteController.php(32): CController->render('index')
+#15 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#16 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#18 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#20 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#21 C:\xampp2\htdocs\sirep\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#22 C:\xampp2\htdocs\sirep\sirep\index.php(15): CApplication->run()
+#23 {main}
+REQUEST_URI=/sirep/sirep/site/index.html
+HTTP_REFERER=http://localhost/sirep/sirep/mzgteventos/create.html
+---
+2019/05/08 18:36:55 [error] [exception.CException] CException: La propiedad "Mzgteventos"."fK1_MZGTEVENTOS_INV_MZGTINSTITUCIONES_PK" no se encuentra definida. in C:\xampp2\htdocs\sirep\sirep\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp2\htdocs\sirep\sirep\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('fK1_MZGTEVENTOS...')
+#1 C:\xampp2\htdocs\sirep\sirep\protected\controllers\ReportesController.php(23): CActiveRecord->__get('fK1_MZGTEVENTOS...')
+#2 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\actions\CInlineAction.php(49): ReportesController->actionListarEventos()
+#3 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CWebApplication.php(282): CController->run('listarEventos')
+#7 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('reportes/listar...')
+#8 C:\xampp2\htdocs\sirep\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\xampp2\htdocs\sirep\sirep\index.php(15): CApplication->run()
+#10 {main}
+REQUEST_URI=/sirep/sirep/reportes/listarEventos.html
+HTTP_REFERER=http://localhost/sirep/sirep/mzgtbancoautores/create.html
+---
+2019/05/08 18:43:58 [error] [exception.CException] CException: La propiedad "Mzgteventos"."fK1_MZGTEVENTOS_INV_MZGTINSTITUCIONES_PK" no se encuentra definida. in C:\xampp2\htdocs\sirep\sirep\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp2\htdocs\sirep\sirep\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('fK1_MZGTEVENTOS...')
+#1 C:\xampp2\htdocs\sirep\sirep\protected\controllers\ReportesController.php(23): CActiveRecord->__get('fK1_MZGTEVENTOS...')
+#2 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\actions\CInlineAction.php(49): ReportesController->actionListarEventos()
+#3 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CWebApplication.php(282): CController->run('listarEventos')
+#7 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('reportes/listar...')
+#8 C:\xampp2\htdocs\sirep\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\xampp2\htdocs\sirep\sirep\index.php(15): CApplication->run()
+#10 {main}
+REQUEST_URI=/sirep/sirep/reportes/listarEventos.html
+HTTP_REFERER=http://localhost/sirep/sirep/mzgtbancoautores/create.html
+---
+2019/05/08 18:44:00 [error] [exception.CException] CException: La propiedad "Mzgteventos"."fK1_MZGTEVENTOS_INV_MZGTINSTITUCIONES_PK" no se encuentra definida. in C:\xampp2\htdocs\sirep\sirep\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp2\htdocs\sirep\sirep\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('fK1_MZGTEVENTOS...')
+#1 C:\xampp2\htdocs\sirep\sirep\protected\controllers\ReportesController.php(107): CActiveRecord->__get('fK1_MZGTEVENTOS...')
+#2 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\actions\CInlineAction.php(49): ReportesController->actionListarEventosPorCarrera()
+#3 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CWebApplication.php(282): CController->run('listarEventosPo...')
+#7 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('reportes/listar...')
+#8 C:\xampp2\htdocs\sirep\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\xampp2\htdocs\sirep\sirep\index.php(15): CApplication->run()
+#10 {main}
+REQUEST_URI=/sirep/sirep/reportes/listarEventosPorCarrera.html
+HTTP_REFERER=http://localhost/sirep/sirep/reportes/listarEventos.html
+---
+2019/05/08 18:50:29 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/banner.jpg" in C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp2\htdocs\sirep\sirep\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/banner.j...')
+#1 C:\xampp2\htdocs\sirep\sirep\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp2\htdocs\sirep\sirep\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/sirep/sirep/images/banner.jpg
+HTTP_REFERER=http://localhost/sirep/sirep/mzgteventos/create.html
+---
