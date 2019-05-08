@@ -42,7 +42,7 @@
                                     'visible'=>Yii::app()->user->checkAccess("menu_registrar_libros"),
                                     ),
                                 array('label'=>'Congresos', 'url'=>array('/mzgtcongresos/create'),
-                               'visible'=>Yii::app()->user->checkAccess("menu_registrar_congresos"),
+                                    'visible'=>Yii::app()->user->checkAccess("menu_registrar_congresos"),
                                 ),            
                                 array('label'=>'Consultorías', 'url'=>array('/mzgtconsultorias/create'),
                                     'visible'=>Yii::app()->user->checkAccess("menu_registrar_consultorias")),
