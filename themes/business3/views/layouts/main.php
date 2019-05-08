@@ -38,6 +38,9 @@
                                     'visible'=>Yii::app()->user->checkAccess("menu_registrar_publicaciones")),
                                 array('label'=>'Libros', 'url'=>array('/mzgtlibros/create'),
                                     'visible'=>Yii::app()->user->checkAccess("menu_registrar_libros")),
+                                    array('label'=>'Congresos', 'url'=>array('/mzgtcongresos/create'),
+                                    'visible'=>Yii::app()->user->checkAccess("menu_registrar_congresos")),
+                                
                                 ),
                             ),
                         array('label'=>'Banco de Autores', 'url'=>array('/mzgtbancoautores/index'),
