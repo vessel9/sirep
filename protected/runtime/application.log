@@ -13328,7 +13328,91 @@ REQUEST_URI=/sirep-1/reportes/listarEventos.html
 HTTP_REFERER=http://localhost/sirep-1/reportes/listarPublicaciones.html
 >>>>>>> a1690ba6e35480e2396fe202eea0499bb7036745
 ---
+<<<<<<< HEAD
 2019/04/24 19:33:17 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\sirep-2\protected\controllers\ReportesController.php:46)
+Stack trace:
+#0 C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php(286): ReportesController->runAction()
+#1 C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php(265): ReportesController->runActionWithFilters()
+#2 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(282): ReportesController->run()
+#3 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\sirep-2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\sirep-2\index.php(15): CWebApplication->run()
+REQUEST_URI=/sirep-2/reportes/listarPublicaciones.html
+=======
+2019/04/24 19:36:41 [error] [application] UiController
+CrugeUser->validate es false
+<div class="errorSummary"><p>Por favor corrija los siguientes errores de ingreso:</p>
+<ul>
+<li>clave invalida</li>
+</ul></div>
+>>>>>>> 18a23f3a26b58f5cb0055c6af977722cde084d7d
+2019/04/25 14:58:07 [error] [exception.CException] CException: La propiedad "Mzgteventos"."fK1_MZGTEVENTOS_INV_MZGTINSTITUCIONES_PK" no se encuentra definida. in C:\xampp\htdocs\sirep-2\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\sirep-2\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('fK1_MZGTEVENTOS...')
+#1 C:\xampp\htdocs\sirep-2\protected\controllers\ReportesController.php(23): CActiveRecord->__get('fK1_MZGTEVENTOS...')
+#2 C:\xampp\htdocs\sirep-2\yii\framework\web\actions\CInlineAction.php(49): ReportesController->actionListarEventos()
+#3 C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(282): CController->run('listarEventos')
+#7 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('reportes/listar...')
+#8 C:\xampp\htdocs\sirep-2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\sirep-2\index.php(15): CApplication->run()
+#10 {main}
+REQUEST_URI=/sirep-2/reportes/listarEventos.html
+HTTP_REFERER=http://localhost/sirep-2/mzgtbancoautores/create.html
+---
+2019/04/25 14:58:12 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\sirep-2\protected\controllers\ReportesController.php:46)
+Stack trace:
+#0 C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php(286): ReportesController->runAction()
+#1 C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php(265): ReportesController->runActionWithFilters()
+#2 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(282): ReportesController->run()
+#3 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\sirep-2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\sirep-2\index.php(15): CWebApplication->run()
+REQUEST_URI=/sirep-2/reportes/listarPublicaciones.html
+2019/04/25 14:58:51 [error] [exception.CException] CException: La propiedad "Mzgteventos"."fK1_MZGTEVENTOS_INV_MZGTINSTITUCIONES_PK" no se encuentra definida. in C:\xampp\htdocs\sirep-2\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\sirep-2\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('fK1_MZGTEVENTOS...')
+#1 C:\xampp\htdocs\sirep-2\protected\controllers\ReportesController.php(23): CActiveRecord->__get('fK1_MZGTEVENTOS...')
+#2 C:\xampp\htdocs\sirep-2\yii\framework\web\actions\CInlineAction.php(49): ReportesController->actionListarEventos()
+#3 C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(282): CController->run('listarEventos')
+#7 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('reportes/listar...')
+#8 C:\xampp\htdocs\sirep-2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\sirep-2\index.php(15): CApplication->run()
+#10 {main}
+REQUEST_URI=/sirep-2/reportes/listarEventos.html
+HTTP_REFERER=http://localhost/sirep-2/mzgtbancoautores/create.html
+---
+2019/04/25 14:58:55 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\sirep-2\protected\controllers\ReportesController.php:46)
+Stack trace:
+#0 C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php(286): ReportesController->runAction()
+#1 C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php(265): ReportesController->runActionWithFilters()
+#2 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(282): ReportesController->run()
+#3 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\sirep-2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\sirep-2\index.php(15): CWebApplication->run()
+REQUEST_URI=/sirep-2/reportes/listarPublicaciones.html
+2019/04/25 14:58:59 [error] [exception.CException] CException: La propiedad "Mzgteventos"."fK1_MZGTEVENTOS_INV_MZGTINSTITUCIONES_PK" no se encuentra definida. in C:\xampp\htdocs\sirep-2\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\sirep-2\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('fK1_MZGTEVENTOS...')
+#1 C:\xampp\htdocs\sirep-2\protected\controllers\ReportesController.php(107): CActiveRecord->__get('fK1_MZGTEVENTOS...')
+#2 C:\xampp\htdocs\sirep-2\yii\framework\web\actions\CInlineAction.php(49): ReportesController->actionListarEventosPorCarrera()
+#3 C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(282): CController->run('listarEventosPo...')
+#7 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('reportes/listar...')
+#8 C:\xampp\htdocs\sirep-2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\sirep-2\index.php(15): CApplication->run()
+#10 {main}
+REQUEST_URI=/sirep-2/reportes/listarEventosPorCarrera.html
+HTTP_REFERER=http://localhost/sirep-2/reportes/listarPublicaciones.html
+---
+2019/04/25 14:59:13 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\sirep-2\protected\controllers\ReportesController.php:46)
 Stack trace:
 #0 C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php(286): ReportesController->runAction()
 #1 C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php(265): ReportesController->runActionWithFilters()
