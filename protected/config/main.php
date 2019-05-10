@@ -8,9 +8,9 @@
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'Sistema Informático para Registro de Eventos y Publicaciones',
+	'theme'=>'classic',
 	'language'=>'es',
 	'sourceLanguage'=>'en',
-	'theme'=>'classic',
 	'charset'=>'utf-8',
 
 	// preloading 'log' component

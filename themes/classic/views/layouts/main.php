@@ -11,7 +11,8 @@
 	<!--[if lt IE 8]>
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/ie.css" media="screen, projection">
 	<![endif]-->
-
+    <link href="<?php echo Yii::app()->theme->baseUrl;?>/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo Yii::app()->theme->baseUrl;?>/css/responsive.min.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css">
 
@@ -21,7 +22,7 @@
 <body>
 
 <div class="container" id="page">
-	<div id="header" style="background-image:url(/sirep/images/banner.jpg)" style="background-attachment: fixed; background-position:center;">
+	
 		<div id="logo"><?php echo CHtml::encode(Yii::app()->name); ?></div>
 	</div><!-- header -->
 
@@ -41,6 +42,9 @@
                                 array('label'=>'Libros', 'url'=>array('/mzgtlibros/create'),
                                     'visible'=>Yii::app()->user->checkAccess("menu_registrar_libros"),
                                     ),
+                                array('label'=>'Congresos', 'url'=>array('/mzgtpublicaciones/create'),
+                                   'visible'=>Yii::app()->user->checkAccess("menu_registrar_congresos"),
+                                ),
                                 array('label'=>'Consultorías', 'url'=>array('/mzgtconsultorias/create'),
                                     'visible'=>Yii::app()->user->checkAccess("menu_registrar_consultorias")),
                                 array('label'=>'Proyectos de vinculación con la Sociedad', 'url'=>array('/mzgtproyvincsoci/create'),
