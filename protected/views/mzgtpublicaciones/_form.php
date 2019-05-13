@@ -34,6 +34,14 @@
 		<?php echo $form->dropDownList($model, 'FK3_MZGTPUBLICACIONES_INV_MZGTCAMPESPECIFICOSCINE_PK', GxHtml::listDataEx(Mzgtcampespecificoscine::model()->findAllAttributes(null, true, 'FK1_MZGTCAMPESPECIFICOSCINE_INV_MZGTCAMPAMPLIOSCINE_PK='.(isset($model->FK2_MZGTPUBLICACIONES_INV_MZGTCAMPAMPLIOSCINE_PK) ? $model->FK2_MZGTPUBLICACIONES_INV_MZGTCAMPAMPLIOSCINE_PK : 1)))); ?>
 		<?php echo $form->error($model,'FK3_MZGTPUBLICACIONES_INV_MZGTCAMPESPECIFICOSCINE_PK'); ?>
 		</div><!-- row -->
+
+		<?php echo $form->error($model,'FK8_MZGTPUBLICACIONES_INV_MZGTCAMPDETALLADOCINE_PK'); ?>
+		<div class="row">
+		<?php echo $form->labelEx($model,'FK8_MZGTPUBLICACIONES_INV_MZGTCAMPDETALLADOCINE_PK'); ?>
+		<?php echo $form->dropDownList($model, 'FK8_MZGTPUBLICACIONES_INV_MZGTCAMPDETALLADOCINE_PK', GxHtml::listDataEx(Mzgtcampdetalladocine::model()->findAllAttributes(null, true, 'FK1_MZGTCAMPDETALLADOCINE_INV_MZGTCAMPESPECIFICOSCINE_PK='.(isset($model->FK3_MZGTPUBLICACIONES_INV_MZGTCAMPESPECIFICOSCINE_PK) ? $model->FK3_MZGTPUBLICACIONES_INV_MZGTCAMPESPECIFICOSCINE_PK : 1)))); ?>
+		<?php echo $form->error($model,'FK8_MZGTPUBLICACIONES_INV_MZGTCAMPDETALLADOCINE_PK'); ?>
+		</div><!-- row -->
+
                 <div class="row">
 		<?php echo $form->labelEx($model,'FK5_MZGTPUBLICACIONES_INV_MZGTBASESDATOSINDEXADA_PK'); ?>
 		<?php echo $form->dropDownList($model, 'FK5_MZGTPUBLICACIONES_INV_MZGTBASESDATOSINDEXADA_PK', GxHtml::listDataEx(Mzgtbasesdatosindexada::model()->findAllAttributes(null, true))+array('999'=>'REGISTRAR NUEVA BASE DE DATOS INDEXADA'), array('options' => array('999'=>array('style'=>'color: red; font-weight: bold;')))); ?>

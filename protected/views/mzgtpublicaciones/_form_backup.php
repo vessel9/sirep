@@ -28,6 +28,13 @@
 		<?php echo $form->dropDownList($model, 'FK3_MZGTPUBLICACIONES_INV_MZGTCAMPESPECIFICOSCINE_PK', GxHtml::listDataEx(Mzgtcampespecificoscine::model()->findAllAttributes(null, true))); ?>
 		<?php echo $form->error($model,'FK3_MZGTPUBLICACIONES_INV_MZGTCAMPESPECIFICOSCINE_PK'); ?>
 		</div><!-- row -->
+
+		<div class="row">
+		<?php echo $form->labelEx($model,'FK8_MZGTPUBLICACIONES_INV_MZGTCAMPDETALLADOCINE_PK'); ?>
+		<?php echo $form->dropDownList($model, 'FK8_MZGTPUBLICACIONES_INV_MZGTCAMPDETALLADOCINE_PK', GxHtml::listDataEx(Mzgtcampdetalladocine::model()->findAllAttributes(null, true))); ?>
+		<?php echo $form->error($model,'FK8_MZGTPUBLICACIONES_INV_MZGTCAMPDETALLADOCINE_PK'); ?>
+		</div><!-- row -->
+
 		<div class="row">
 		<?php echo $form->labelEx($model,'FK4_MZGTPUBLICACIONES_INV_MZGTTIPOSPUBLICACIONES_PK'); ?>
 		<?php echo $form->dropDownList($model, 'FK4_MZGTPUBLICACIONES_INV_MZGTTIPOSPUBLICACIONES_PK', GxHtml::listDataEx(Mzgttipospublicaciones::model()->findAllAttributes(null, true))); ?>

@@ -1,6 +1,6 @@
 <?php
 
-class MzgtcampespecificoscineController extends GxController {
+class MzgtcampdetalladocineController extends GxController {
 
 
 	public function actionView($id) {
@@ -20,7 +20,7 @@ class MzgtcampespecificoscineController extends GxController {
 				if (Yii::app()->getRequest()->getIsAjaxRequest())
 					Yii::app()->end();
 				else
-					$this->redirect(array('view', 'id' => $model->PK_MZGTCAMPESPECIFICOSCINE));
+					$this->redirect(array('view', 'id' => $model->PK_MZGTCAMPDETALLADOCINE));
 			}
 		}
 
@@ -62,11 +62,11 @@ class MzgtcampespecificoscineController extends GxController {
 	}
 
 	public function actionAdmin() {
-		$model = new Mzgtcampespecificoscine('search');
+		$model = new Mzgtcampdetalladocine('search');
 		$model->unsetAttributes();
 
-		if (isset($_GET['Mzgtcampespecificoscine']))
-			$model->setAttributes($_GET['Mzgtcampespecificoscine']);
+		if (isset($_GET['Mzgtcampdetalladocine']))
+			$model->setAttributes($_GET['Mzgtcampdetalladocine']);
 
 		$this->render('admin', array(
 			'model' => $model,
@@ -74,7 +74,7 @@ class MzgtcampespecificoscineController extends GxController {
 	}
         
         public function actionCargarEspecifico() {
-            $data= Mzgtcampespecificoscine::model()->findAll(array('condition'=>'FK1_MZGTDETALLADOCINE_INV_MZGTCAMPESPECIFICOSCINE_PK='.$_POST['Amplio'],'order'=>'MZGTCAMPDETALLADOCINE_NOMBRE'));
+            $data= Mzgtcampdetalladocine::model()->findAll(array('condition'=>'FK1_MZGTDETALLADOCINE_INV_MZGTCAMPESPECIFICOSCINE_PK='.$_POST['Amplio'],'order'=>'MZGTCAMPDETALLADOCINE_NOMBRE'));
             $data=CHtml::listData($data,'PK_MZGTCAMPDETALLADOCINE','MZGTCAMPDETALLADOCINE_NOMBRE');
             
             foreach($data as $value=>$name){

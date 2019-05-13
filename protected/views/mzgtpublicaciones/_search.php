@@ -26,6 +26,11 @@
 	</div>
 
 	<div class="row">
+		<?php echo $form->label($model, 'FK8_MZGTPUBLICACIONES_INV_MZGTCAMPDETALLADOCINE_PK'); ?>
+		<?php echo $form->dropDownList($model, 'FK8_MZGTPUBLICACIONES_INV_MZGTCAMPDETALLADOCINE_PK', GxHtml::listDataEx(Mzgtcampdetalladocine::model()->findAllAttributes(null, true)), array('prompt' => Yii::t('app', 'All'))); ?>
+	</div>
+
+	<div class="row">
 		<?php echo $form->label($model, 'FK4_MZGTPUBLICACIONES_INV_MZGTTIPOSPUBLICACIONES_PK'); ?>
 		<?php echo $form->dropDownList($model, 'FK4_MZGTPUBLICACIONES_INV_MZGTTIPOSPUBLICACIONES_PK', GxHtml::listDataEx(Mzgttipospublicaciones::model()->findAllAttributes(null, true)), array('prompt' => Yii::t('app', 'All'))); ?>
 	</div>

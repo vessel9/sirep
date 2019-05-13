@@ -55,6 +55,11 @@ $('.search-form form').submit(function(){
 				'filter'=>GxHtml::listDataEx(Mzgtcampespecificoscine::model()->findAllAttributes(null, true)),
 				),
 		array(
+				'name'=>'FK8_MZGTPUBLICACIONES_INV_MZGTCAMPDETALLADOCINE_PK',
+				'value'=>'GxHtml::valueEx($data->fK8MZGTPUBLICACIONESINVMZGTCAMPDETALLADOCINEPK)',
+				'filter'=>GxHtml::listDataEx(Mzgtcampdetalladocine::model()->findAllAttributes(null, true)),
+				),
+		array(
 				'name'=>'FK4_MZGTPUBLICACIONES_INV_MZGTTIPOSPUBLICACIONES_PK',
 				'value'=>'GxHtml::valueEx($data->fK4MZGTPUBLICACIONESINVMZGTTIPOSPUBLICACIONESPK)',
 				'filter'=>GxHtml::listDataEx(Mzgttipospublicaciones::model()->findAllAttributes(null, true)),

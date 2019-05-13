@@ -13,6 +13,12 @@
 	<?php echo GxHtml::encode($data->getAttributeLabel('FK3_MZGTPUBLICACIONES_INV_MZGTCAMPESPECIFICOSCINE_PK')); ?>:
 		<?php echo GxHtml::encode(GxHtml::valueEx($data->fK3MZGTPUBLICACIONESINVMZGTCAMPESPECIFICOSCINEPK)); ?>
 	<br />
+
+	<?php echo GxHtml::encode($data->getAttributeLabel('FK8_MZGTPUBLICACIONES_INV_MZGTCAMPDETALLADOCINE_PK')); ?>:
+		<?php echo GxHtml::encode(GxHtml::valueEx($data->fK8MZGTPUBLICACIONESINVMZGTCAMPDETALLADOCINEPK)); ?>
+	<br />
+
+
 	<?php echo GxHtml::encode($data->getAttributeLabel('FK4_MZGTPUBLICACIONES_INV_MZGTTIPOSPUBLICACIONES_PK')); ?>:
 		<?php echo GxHtml::encode(GxHtml::valueEx($data->fK4MZGTPUBLICACIONESINVMZGTTIPOSPUBLICACIONESPK)); ?>
 	<br />

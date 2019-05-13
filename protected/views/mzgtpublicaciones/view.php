@@ -35,6 +35,15 @@ array(
 			'type' => 'raw',
 			'value' => $model->fK3MZGTPUBLICACIONESINVMZGTCAMPESPECIFICOSCINEPK !== null ? GxHtml::link(GxHtml::encode(GxHtml::valueEx($model->fK3MZGTPUBLICACIONESINVMZGTCAMPESPECIFICOSCINEPK)), array('mzgtcampespecificoscine/view', 'id' => GxActiveRecord::extractPkValue($model->fK3MZGTPUBLICACIONESINVMZGTCAMPESPECIFICOSCINEPK, true))) : null,
 			),
+
+
+			array(
+				'name' => 'fK8MZGTPUBLICACIONESINVMZGTCAMPDETALLADOCINEPK',
+				'type' => 'raw',
+				'value' => $model->fK8MZGTPUBLICACIONESINVMZGTCAMPDETALLADOCINEPK !== null ? GxHtml::link(GxHtml::encode(GxHtml::valueEx($model->fK8MZGTPUBLICACIONESINVMZGTCAMPDETALLADOCINEPK)), array('mzgtcampdetalladocine/view', 'id' => GxActiveRecord::extractPkValue($model->fK8MZGTPUBLICACIONESINVMZGTCAMPDETALLADOCINEPK, true))) : null,
+				),
+
+
 array(
 			'name' => 'fK4MZGTPUBLICACIONESINVMZGTTIPOSPUBLICACIONESPK',
 			'type' => 'raw',
