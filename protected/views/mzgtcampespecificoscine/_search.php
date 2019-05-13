@@ -5,7 +5,7 @@
 	'method' => 'get',
 )); ?>
 
-	<div class="row">
+<div class="row">
 		<?php echo $form->label($model, 'PK_MZGTCAMPESPECIFICOSCINE'); ?>
 		<?php echo $form->textField($model, 'PK_MZGTCAMPESPECIFICOSCINE'); ?>
 	</div>
