@@ -20,7 +20,7 @@ class MzgteventosController extends GxController {
 			$model->setAttributes($_POST['Mzgteventos']);
                         
                         $model->MZGTEVENTOS_FECHAREGISTRO = date('Y-m-d H:i:s');
-                        $model->FK5_MZGTEVENTOS_INV_MZGTPERSONAS_PK = $name;
+                      
 
 			if ($model->save()) {
 				if (Yii::app()->getRequest()->getIsAjaxRequest())
@@ -70,7 +70,7 @@ class MzgteventosController extends GxController {
             
 		$dataProvider = new CActiveDataProvider('Mzgteventos',array(
                     'criteria'=>array(
-                        'condition'=>'FK5_MZGTEVENTOS_INV_MZGTPERSONAS_PK = '.$id,
+                     
                         'order'=>'MZGTEVENTOS_FECHAREGISTRO  DESC',
                     )));
 		$this->render('index', array(
@@ -86,7 +86,7 @@ class MzgteventosController extends GxController {
 		if (isset($_GET['Mzgteventos']))
 			$model->setAttributes($_GET['Mzgteventos']);
 
-                $model->FK5_MZGTEVENTOS_INV_MZGTPERSONAS_PK = $id;
+          
                 
 		$this->render('admin', array(
 			'model' => $model,

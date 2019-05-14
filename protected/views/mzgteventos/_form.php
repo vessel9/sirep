@@ -100,10 +100,7 @@
 		<?php echo $form->error($model,'FK4_MZGTEVENTOS_INV_MZGTPROYECTOS_PK'); ?>
 		</div><!-- row -->
 		<!--
-                <div class="row">
-		<?php echo $form->labelEx($model,'FK5_MZGTEVENTOS_INV_MZGTPERSONAS_PK'); ?>
-		<?php echo $form->dropDownList($model, 'FK5_MZGTEVENTOS_INV_MZGTPERSONAS_PK', GxHtml::listDataEx(Mzgtpersonas::model()->findAllAttributes(null, true))); ?>
-		<?php echo $form->error($model,'FK5_MZGTEVENTOS_INV_MZGTPERSONAS_PK'); ?>
+            
 		</div>
 		<div class="row">
 		<?php echo $form->labelEx($model,'MZGTEVENTOS_FECHAREGISTRO'); ?>

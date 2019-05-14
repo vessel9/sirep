@@ -46,11 +46,6 @@ array(
 'MZGTEVENTOS_CARRERA',
 'MZGTEVENTOS_DEPARTAMENTO',
 'MZGTEVENTOS_EVIDENCIAS',
-array(
-			'name' => 'fK5MZGTEVENTOSINVMZGTPERSONASPK',
-			'type' => 'raw',
-			'value' => $model->fK5MZGTEVENTOSINVMZGTPERSONASPK !== null ? GxHtml::link(GxHtml::encode(GxHtml::valueEx($model->fK5MZGTEVENTOSINVMZGTPERSONASPK)), array('/view', 'id' => GxActiveRecord::extractPkValue($model->fK5MZGTEVENTOSINVMZGTPERSONASPK, true))) : null,
-			),
 'MZGTEVENTOS_FECHAREGISTRO',
 	),
 )); ?>

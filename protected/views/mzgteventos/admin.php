@@ -65,12 +65,7 @@ $('.search-form form').submit(function(){
 		'MZGTEVENTOS_CARRERA',
 		'MZGTEVENTOS_DEPARTAMENTO',
 		'MZGTEVENTOS_EVIDENCIAS',
-		array(
-				'name'=>'FK5_MZGTEVENTOS_INV_MZGTPERSONAS_PK',
-				'value'=>'GxHtml::valueEx($data->)',
-				'filter'=>GxHtml::listDataEx(::model()->findAllAttributes(null, true)),
-				),
-		'MZGTEVENTOS_FECHAREGISTRO',
+	
 		*/
 		array(
 			'class' => 'CButtonColumn',
