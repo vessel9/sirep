@@ -23,7 +23,7 @@ class Mzgtcampdetalladocine extends BaseMzgtcampdetalladocine
         
         public function attributeLabels() {
 		return array(
-			'PK_MZGTCAMPDETALLADOCINE' => Yii::t('app', 'Campos detallados CINE'),
+			'PK_MZGTCAMPDETALLADOCINE' => Yii::t('app', 'Campos  detallados CINE'),
 			'FK1_MZGTCAMPDETALLADOCINE_INV_MZGTCAMPESPECIFICOSCINE_PK' => Yii::t('app', 'Campos Detallados CINE'),
 			'MZGTCAMPDETALLADOCINE_NOMBRE' => Yii::t('app', 'Descripción'),
 			'MZGTCAMPDETALLADOCINE_CODIGO' => Yii::t('app', 'Código alterno'),
