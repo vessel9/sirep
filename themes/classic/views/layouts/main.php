@@ -55,6 +55,7 @@
                             'visible'=>Yii::app()->user->checkAccess("menu_bancoautores"),
                             'url'=>array('/mzgtbancoautores/create'),
                         ),
+                        /*
                         array('label'=>'Exportar archivos CSV', 
                             'visible'=>Yii::app()->user->checkAccess("menu_exportar"),
                             'items'=>array(
@@ -63,7 +64,7 @@
                                 array('label'=>'Publicaciones', 'url'=>array('/reportes/listarPublicaciones'),
                                     'visible'=>Yii::app()->user->checkAccess("menu_exportar_publicaciones")),
                                 ),
-                            ),
+                            ),*/
                         array('label'=>'Reportes',
                             'visible'=>Yii::app()->user->checkAccess("menu_reportes"),
                             'items'=>array(
