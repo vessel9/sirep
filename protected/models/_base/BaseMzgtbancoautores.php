@@ -97,7 +97,7 @@ abstract class BaseMzgtbancoautores extends GxActiveRecord
 			'MZGTBANCOAUTORES_PAIS' => 'Mzgtbancoautores Pais',
 			'MZGTBANCOAUTORES_CODIGO' => 'Mzgtbancoautores Codigo',
 			'MZGTBANCOAUTORES_DEPARTAMENTO_CENTRO' => 'Mzgtbancoautores Departamento Centro',
-			'FK1_MZGTBANCOAUTORES_MZGTTIPOAUTORES_PK' => 'Fk1 Mzgtbancoautores Mzgttipoautores Pk',
+
 		);
 	}
 
@@ -131,7 +131,7 @@ abstract class BaseMzgtbancoautores extends GxActiveRecord
 		$criteria->compare('MZGTBANCOAUTORES_PAIS',$this->MZGTBANCOAUTORES_PAIS,true);
 		$criteria->compare('MZGTBANCOAUTORES_CODIGO',$this->MZGTBANCOAUTORES_CODIGO,true);
 		$criteria->compare('MZGTBANCOAUTORES_DEPARTAMENTO_CENTRO',$this->MZGTBANCOAUTORES_DEPARTAMENTO_CENTRO,true);
-		$criteria->compare('FK1_MZGTBANCOAUTORES_MZGTTIPOAUTORES_PK',$this->FK1_MZGTBANCOAUTORES_MZGTTIPOAUTORES_PK);
+
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
