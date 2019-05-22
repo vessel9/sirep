@@ -17946,3 +17946,27 @@ Stack trace:
 REQUEST_URI=/sirep-2/mzgtpublicaciones/create.html
 HTTP_REFERER=http://localhost/sirep-2/mzgtbancoautores/363.html
 ---
+2019/05/15 17:04:24 [error] [php] A non well formed numeric value encountered (C:\xampp\htdocs\sirep-2\protected\extensions\EAjaxUpload\qqFileUploader.php:98)
+Stack trace:
+#0 C:\xampp\htdocs\sirep-2\protected\controllers\MzgteventosController.php(111): qqFileUploader->__construct()
+#1 C:\xampp\htdocs\sirep-2\yii\framework\web\actions\CInlineAction.php(49): MzgteventosController->actionUpload()
+#2 C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php(286): MzgteventosController->runAction()
+#4 C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php(265): MzgteventosController->runActionWithFilters()
+#5 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(282): MzgteventosController->run()
+#6 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\xampp\htdocs\sirep-2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\sirep-2\index.php(15): CWebApplication->run()
+REQUEST_URI=/sirep-2/mzgteventos/Upload.html?PHPSESSID=rvc09jor70l3b91t2kfqt8qc30&YII_CSRF_TOKEN=UUpWUURPcG96b0hpbEdURm9LdzRiQWdKQ01UdmdYU2OMnGpIZ4-VrVm4RlVKpe5rTV0NNXpZzR7aanIe1Mi5og%3D%3D&qqfile=HOMEWORK+FORMAT.pdf
+2019/05/15 17:05:04 [error] [php] A non well formed numeric value encountered (C:\xampp\htdocs\sirep-2\protected\extensions\EAjaxUpload\qqFileUploader.php:98)
+Stack trace:
+#0 C:\xampp\htdocs\sirep-2\protected\controllers\MzgteventosController.php(111): qqFileUploader->__construct()
+#1 C:\xampp\htdocs\sirep-2\yii\framework\web\actions\CInlineAction.php(49): MzgteventosController->actionUpload()
+#2 C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php(286): MzgteventosController->runAction()
+#4 C:\xampp\htdocs\sirep-2\yii\framework\web\CController.php(265): MzgteventosController->runActionWithFilters()
+#5 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(282): MzgteventosController->run()
+#6 C:\xampp\htdocs\sirep-2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\xampp\htdocs\sirep-2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\sirep-2\index.php(15): CWebApplication->run()
+REQUEST_URI=/sirep-2/mzgteventos/Upload.html?PHPSESSID=rvc09jor70l3b91t2kfqt8qc30&YII_CSRF_TOKEN=UUpWUURPcG96b0hpbEdURm9LdzRiQWdKQ01UdmdYU2OMnGpIZ4-VrVm4RlVKpe5rTV0NNXpZzR7aanIe1Mi5og%3D%3D&qqfile=HOMEWORK+FORMAT.pdf
