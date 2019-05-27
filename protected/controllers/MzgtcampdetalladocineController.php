@@ -73,8 +73,8 @@ class MzgtcampdetalladocineController extends GxController {
 		));
 	}
         
-        public function actionCargarEspecifico() {
-            $data= Mzgtcampdetalladocine::model()->findAll(array('condition'=>'FK1_MZGTDETALLADOCINE_INV_MZGTCAMPESPECIFICOSCINE_PK='.$_POST['Amplio'],'order'=>'MZGTCAMPDETALLADOCINE_NOMBRE'));
+        public function actionCargarDetallado() {
+            $data= Mzgtcampdetalladocine::model()->findAll(array('condition'=>'FK1_MZGTCAMPDETALLADOCINE_INV_MZGTCAMPESPECIFICOSCINE_PK='.$_POST['Amplio'],'order'=>'MZGTCAMPDETALLADOCINE_NOMBRE'));
             $data=CHtml::listData($data,'PK_MZGTCAMPDETALLADOCINE','MZGTCAMPDETALLADOCINE_NOMBRE');
             
             foreach($data as $value=>$name){

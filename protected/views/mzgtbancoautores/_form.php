@@ -46,10 +46,7 @@
 		<?php echo $form->textField($model, 'MZGTBANCOAUTORES_CEDULA', array('maxlength' => 255)); ?>
 		<?php echo $form->error($model,'MZGTBANCOAUTORES_CEDULA'); ?>
                 </div><!-- row -->
-                <div class="row">
-                <?php echo $form->labelEx($model,'FK1_MZGTBANCOAUTORES_MZGTTIPOAUTORES_PK'); ?>
-		
-                </div><!-- row -->
+        
 		<div class="row">
 		<?php echo $form->labelEx($model,'MZGTBANCOAUTORES_TRATO'); ?>
 		<?php echo $form->textField($model, 'MZGTBANCOAUTORES_TRATO', array('maxlength' => 5, 'size'=>5, 'style'=>'text-transform:uppercase;')); ?>
@@ -143,11 +140,6 @@
 		<?php echo $form->error($model,'MZGTBANCOAUTORES_DEPARTAMENTO_CENTRO'); ?>
 		</div><!-- row -->
 
-		<label><?php //echo GxHtml::encode($model->getRelationLabel('mzgtpublicaciones')); ?></label>
-		<?php //echo $form->listBox($model, 'mzgtpublicaciones', GxHtml::encodeEx(GxHtml::listDataEx(Mzgtpublicaciones::model()->findAllAttributes(null, true)), false, true)); ?>
-		<label><?php //echo GxHtml::encode($model->getRelationLabel('mzgtlibroses')); ?></label>
-		<?php //echo $form->listBox($model, 'mzgtlibroses', GxHtml::encodeEx(GxHtml::listDataEx(Mzgtlibros::model()->findAllAttributes(null, true)), false, true)); ?>
-                
                 <div class="row">
 		<?php echo $form->labelEx($model,'MZGTBANCOAUTORES_CODIGO'); ?>
 		<?php echo $form->textField($model, 'MZGTBANCOAUTORES_CODIGO', array('maxlength' => 255)); ?>

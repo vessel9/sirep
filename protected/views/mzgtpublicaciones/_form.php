@@ -37,7 +37,7 @@
 
 		<?php echo $form->error($model,'FK8_MZGTPUBLICACIONES_INV_MZGTCAMPDETALLADOCINE_PK'); ?>
 		<div class="row">
-		<?php echo $form->labelEx($model,'FK8_MZGTPUBLICACIONES_INV_MZGTCAMPDETALLADOCINE_PK'); ?>
+		<?php echo $form->labelEx($model,'campo detallado CINE'); ?>
 		<?php echo $form->dropDownList($model, 'FK8_MZGTPUBLICACIONES_INV_MZGTCAMPDETALLADOCINE_PK', GxHtml::listDataEx(Mzgtcampdetalladocine::model()->findAllAttributes(null, true, 'FK1_MZGTCAMPDETALLADOCINE_INV_MZGTCAMPESPECIFICOSCINE_PK='.(isset($model->FK3_MZGTPUBLICACIONES_INV_MZGTCAMPESPECIFICOSCINE_PK) ? $model->FK3_MZGTPUBLICACIONES_INV_MZGTCAMPESPECIFICOSCINE_PK : 1)))); ?>
 		<?php echo $form->error($model,'FK8_MZGTPUBLICACIONES_INV_MZGTCAMPDETALLADOCINE_PK'); ?>
 		</div><!-- row -->

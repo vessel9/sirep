@@ -29,8 +29,7 @@
 		<?php echo $form->error($model,'MZGTTIPOSPUBLICACIONES_ESTADO'); ?>
 		</div><!-- row -->
 
-		<label><?php echo GxHtml::encode($model->getRelationLabel('mzgtpublicaciones')); ?></label>
-		<?php echo $form->checkBoxList($model, 'mzgtpublicaciones', GxHtml::encodeEx(GxHtml::listDataEx(Mzgtpublicaciones::model()->findAllAttributes(null, true)), false, true)); ?>
+	
 
 <?php
 echo GxHtml::submitButton(Yii::t('app', 'Guardar'));

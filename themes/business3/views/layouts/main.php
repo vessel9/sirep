@@ -107,6 +107,8 @@
                                     'items'=>array(
                                         array('label'=>'Campos específico CINE', 'url'=>array('/mzgtcampespecificoscine/index'),
                                         'visible'=>Yii::app()->user->checkAccess("menu_mantenimiento_campespecificoscine")),
+                                        array('label'=>'Campos detallados CINE', 'url'=>array('/mzgtcampdetalladocine/index'),
+                                        'visible'=>Yii::app()->user->checkAccess("menu_mantenimiento_campdetalladocine")),
                                         )
                                     ),
                                 array('label'=>'Instituciones', 'url'=>array('/mzgtinstituciones/index'),
